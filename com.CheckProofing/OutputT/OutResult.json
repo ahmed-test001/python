@@ -1,0 +1,45 @@
+{
+    "check_list": [
+        {
+            "offerCID": [
+                "earlyReserve"
+            ],
+            "modelCode": [
+                "XE530QDA-KA2US"
+            ],
+            "tradeIn": [
+                "de2f14d9-94ed-4d1c-b15b-537fc0378347"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "02232021_chromebook2_po_t2"
+            ],
+            "marsLinkCategory": [
+                "home_app:other"
+            ],
+            "MKM_RID": [
+                "0245394080"
+            ],
+            "MKM_MID": [
+                "FCP_1043288944_PDM181215"
+            ],
+            "cid": [
+                "emlcrm-ecom-brd-pc-0221-3160-Reservers"
+            ],
+            "bpid": [
+                "0245394080"
+            ],
+            "iosparam": [
+                "samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fcomputing%2Fchromebook2%2Findex.html%3FofferCID%3DearlyReserve%26modelCode%3DXE530QDA-KA2US%26tradeIn%3Dde2f14d9-94ed-4d1c-b15b-537fc0378347%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3D02232021_chromebook2_po_t2%23marsLinkCategory%3Dhome_app:other%23MKM_RID%3D0245394080%23MKM_MID%3DFCP_1043288944_PDM181215%23cid%3Demlcrm-ecom-brd-pc-0221-3160-Reservers%23bpid%3D0245394080"
+            ],
+            "url_deep_link": [
+                "https://www.samsung.com/us/computing/chromebook2/buy/?offerCID=earlyReserve&modelCode=XE530QDA-KA2US&tradeIn=de2f14d9-94ed-4d1c-b15b-537fc0378347&utm_source=samsung&utm_medium=email&utm_campaign=02232021_chromebook2_po_t2&marsLinkCategory=home_app:other&MKM_RID=0245394080&MKM_MID=FCP_1043288944_PDM181215&cid=emlcrm-ecom-brd-pc-0221-3160-Reservers&bpid=0245394080&iosparam=samsungestore%253A%252F%252Fopenwebview%2523url%253Dhttps%253A%252F%252Fwww.samsung.com%252Fus%252Fbuy%252Fcomputing%252Fchromebook2%252Findex.html%253FofferCID%253DearlyReserve%2526modelCode%253DXE530QDA-KA2US%2526tradeIn%253Dde2f14d9-94ed-4d1c-b15b-537fc0378347%2523utm_source%253Dsamsung%2523utm_medium%253Demail%2523utm_campaign%253D02232021_chromebook2_po_t2%2523marsLinkCategory%253Dhome_app:other%2523MKM_RID%253D0245394080%2523MKM_MID%253DFCP_1043288944_PDM181215%2523cid%253Demlcrm-ecom-brd-pc-0221-3160-Reservers%2523bpid%253D0245394080"
+            ]
+        }
+    ]
+}

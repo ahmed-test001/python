@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sample Test_Image Report</title>
+    <meta name="generator" content="HTMLTestRunner 1.0.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/echarts/3.8.5/echarts.common.min.js"></script>
+    <!-- <script type="text/javascript" src="js/echarts.common.min.js"></script> -->
+
+    
+<style type="text/css" media="screen">
+    body        { font-family: Microsoft YaHei,Consolas,arial,sans-serif; font-size: 100%; }
+    table       { font-size: 110%; }
+    pre         { white-space: pre-wrap;word-wrap: break-word; }
+
+    /* -- heading ---------------------------------------------------------------------- */
+    h1 {
+        font-size: 16pt;
+        color: gray;
+    }
+    .heading {
+        margin-top: 0ex;
+        margin-bottom: 1ex;
+    }
+
+    .heading .attribute {
+        margin-top: 1ex;
+        margin-bottom: 0;
+    }
+
+    .heading .description {
+        margin-top: 2ex;
+        margin-bottom: 3ex;
+    }
+
+    /* -- css div popup ------------------------------------------------------------------------ */
+    a.popup_link {
+    }
+
+    a.popup_link:hover {
+        color: red;
+    }
+
+    .popup_window {
+        display: none;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        /*border: solid #627173 1px; */
+        padding: 10px;
+        /*background-color: #E6E6D6; */
+        font-family: "Lucida Console", "Courier New", Courier, monospace;
+        text-align: left;
+        font-size: 12pt;
+        /* width: 500px;*/
+    }
+
+    }
+    /* -- report ------------------------------------------------------------------------ */
+    #show_detail_line {
+        margin-top: 3ex;
+        margin-bottom: 1ex;
+    }
+    #result_table {
+        width: 99%;
+    }
+    #header_row {
+        font-weight: bold;
+        color: #303641;
+        background-color: #ebebeb;
+    }
+    #total_row  { font-weight: bold; }
+    .passClass  { background-color: #bdedbc; }
+    .failClass  { background-color: #ffefa4; }
+    .errorClass { background-color: #ffc9c9; }
+    .passCase   { color: #6c6; }
+    .failCase   { color: #FF6600; font-weight: bold; }
+    .errorCase  { color: #c00; font-weight: bold; }
+    .hiddenRow  { display: none; }
+    .testcase   { margin-left: 2em; }
+
+
+    /* -- ending ---------------------------------------------------------------------- */
+    #ending {
+    }
+
+    #div_base {
+                position:absolute;
+                top:0%;
+                left:5%;
+                right:5%;
+                width: auto;
+                height: auto;
+                margin: -15px 0 0 0;
+    }
+</style>
+
+
+</head>
+<body>
+    <script language="javascript" type="text/javascript"><!--
+    output_list = Array();
+
+    /* level - 0:Summary; 1:Failed; 2:All */
+    function showCase(level) {
+        trs = document.getElementsByTagName("tr");
+        for (var i = 0; i < trs.length; i++) {
+            tr = trs[i];
+            id = tr.id;
+            if (id.substr(0,2) == 'ft') {
+                if (level < 1) {
+                    tr.className = 'hiddenRow';
+                }
+                else {
+                    tr.className = '';
+                }
+            }
+            if (id.substr(0,2) == 'pt') {
+                if (level > 1) {
+                    tr.className = '';
+                }
+                else {
+                    tr.className = 'hiddenRow';
+                }
+            }
+        }
+    }
+
+
+    function showClassDetail(cid, count) {
+        var id_list = Array(count);
+        var toHide = 1;
+        for (var i = 0; i < count; i++) {
+            tid0 = 't' + cid.substr(1) + '.' + (i+1);
+            tid = 'f' + tid0;
+            tr = document.getElementById(tid);
+            if (!tr) {
+                tid = 'p' + tid0;
+                tr = document.getElementById(tid);
+            }
+            id_list[i] = tid;
+            if (tr.className) {
+                toHide = 0;
+            }
+        }
+        for (var i = 0; i < count; i++) {
+            tid = id_list[i];
+            if (toHide) {
+                document.getElementById('div_'+tid).style.display = 'none'
+                document.getElementById(tid).className = 'hiddenRow';
+            }
+            else {
+                document.getElementById(tid).className = '';
+            }
+        }
+    }
+
+
+    function showTestDetail(div_id){
+        var details_div = document.getElementById(div_id)
+        var displayState = details_div.style.display
+        // alert(displayState)
+        if (displayState != 'block' ) {
+            displayState = 'block'
+            details_div.style.display = 'block'
+        }
+        else {
+            details_div.style.display = 'none'
+        }
+    }
+
+
+    function html_escape(s) {
+        s = s.replace(/&/g,'&amp;');
+        s = s.replace(/</g,'&lt;');
+        s = s.replace(/>/g,'&gt;');
+        return s;
+    }
+
+    /* obsoleted by detail in <div>
+    function showOutput(id, name) {
+        var w = window.open("", //url
+                        name,
+                        "resizable,scrollbars,status,width=800,height=450");
+        d = w.document;
+        d.write("<pre>");
+        d.write(html_escape(output_list[id]));
+        d.write("\n");
+        d.write("<a href='javascript:window.close()'>close</a>\n");
+        d.write("</pre>\n");
+        d.close();
+    }
+    */
+    --></script>
+
+    <div id="div_base">
+        
+    <div class='page-header'>
+        <h1>Sample Test_Image Report</h1>
+    <p class='attribute'><strong>Start Time:</strong> 2021-02-22 12:06:04</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:44.348606</p>
+<p class='attribute'><strong>Status:</strong> Passed 3</p>
+
+    </div>
+    <div style="float: left;width:50%;"><p class='description'></p></div>
+    <div id="chart" style="width:50%;height:400px;float:left;"></div>
+
+        
+    <div class="btn-group btn-group-sm">
+        <a class="btn btn-primary" onclick='javascript:showCase(0)'>Passed{ 100.00% }</a>
+        <a class="btn btn-warning" onclick='javascript:showCase(4)'>Error{ 0 }</a>
+        <a class="btn btn-danger" onclick='javascript:showCase(1)'>Failed{ 0 }</a>
+        <a class="btn btn-success" onclick='javascript:showCase(2)'>Pass{ 3 }</a>
+        <a class="btn btn-info" onclick='javascript:showCase(3)'>Total{ 3 }</a>
+    </div>
+    <p></p>
+    <table id='result_table' class="table table-bordered">
+        <colgroup>
+            <col align='left' />
+            <col align='right' />
+            <col align='right' />
+            <col align='right' />
+            <col align='right' />
+            <col align='right' />
+        </colgroup>
+        <tr id='header_row'>
+            <td>Test_Image Suite/Test_Image Case</td>
+            <td>Total</td>
+            <td>Passed</td>
+            <td>Failed</td>
+            <td>Error</td>
+            <td>View</td>
+        </tr>
+        
+    <tr class='passClass'>
+        <td>Proofing_Page_Test</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c1',3)">Logs</a></td>
+    </tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_a2_Top_Hero_CTA_verification</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        Passed</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <pre>pt1.1: 2021-02-22 12:06:10,111INFO: test_a2_Top_Hero_CTA_verification
+2021-02-22 12:06:10,121INFO: ##### Started Hero_CTA_link_validation #####
+2021-02-22 12:06:16,496INFO: successfully verified Web Landing page URL:
+https://www.samsung.com/us/smartphones/galaxy-s21-5g/buy/galaxy-s21-ultra-5g-128gb-att-sm-g998uzkaatt/?skipDevice=galaxy-s21-ultra-5g&amp;offerCID=earlyReserve&amp;skipCarrier=att&amp;tradeIn=947de220-7ad3-455c-a8fd-dae88cefe0b8&amp;utm_source=samsung&amp;utm_medium=email&amp;utm_campaign=01292021_s21_launch_t1&amp;marsLinkCategory=mphone:mphone&amp;MKM_RID=0183276092&amp;MKM_MID=FCP_1018500944_PDM180096&amp;cid=emlcrm-ecom-mb-cph-0221-3146-EPP_Reservers&amp;bpid=0183276092
+
+2021-02-22 12:06:16,506INFO: Printing URL Segment values Below:{
+    "check_list": [
+        {
+            "skipDevice": [
+                "galaxy-s21-ultra-5g"
+            ],
+            "offerCID": [
+                "earlyReserve"
+            ],
+            "skipCarrier": [
+                "att"
+            ],
+            "tradeIn": [
+                "947de220-7ad3-455c-a8fd-dae88cefe0b8"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "01292021_s21_launch_t1"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0183276092"
+            ],
+            "MKM_MID": [
+                "FCP_1018500944_PDM180096"
+            ],
+            "cid": [
+                "emlcrm-ecom-mb-cph-0221-3146-EPP_Reservers"
+            ],
+            "bpid": [
+                "0183276092"
+            ],
+            "url_deep_link": [
+                "https://www.samsung.com/us/smartphones/galaxy-s21-5g/buy/galaxy-s21-ultra-5g-128gb-att-sm-g998uzkaatt/?skipDevice=galaxy-s21-ultra-5g&amp;offerCID=earlyReserve&amp;skipCarrier=att&amp;tradeIn=947de220-7ad3-455c-a8fd-dae88cefe0b8&amp;utm_source=samsung&amp;utm_medium=email&amp;utm_campaign=01292021_s21_launch_t1&amp;marsLinkCategory=mphone:mphone&amp;MKM_RID=0183276092&amp;MKM_MID=FCP_1018500944_PDM180096&amp;cid=emlcrm-ecom-mb-cph-0221-3146-EPP_Reservers&amp;bpid=0183276092"
+            ]
+        }
+    ]
+}
+2021-02-22 12:06:23,280INFO: utm_source==samsung
+2021-02-22 12:06:28,878INFO: utm_medium==email
+2021-02-22 12:06:33,264INFO: utm_campaign==01292021_s21_launch_t1
+2021-02-22 12:06:36,449INFO: marsLinkCategory==mphone:mphone
+2021-02-22 12:06:39,569INFO: cid==emlcrm-ecom-mb-cph-0221-3146-EPP_Reservers
+2021-02-22 12:06:39,803INFO: #####  Verification Complete  #####
+
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_k1_free_shipping_details_button_LandingPage_URL_validation</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        Passed</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <pre>pt1.2: 2021-02-22 12:06:39,803INFO: test_k1_free_shipping_details_button_LandingPage_URL_validation
+2021-02-22 12:06:39,814INFO: ##### Started free_shipping URL verification #####
+2021-02-22 12:06:44,063INFO: Assertion Free Ship Button URL with: https://www.samsung.com/us/support/order-help/#SHIPPINGANDPAYMENTS
+2021-02-22 12:06:44,158INFO: #####  Verification Complete  #####
+
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_m1_ConditionText1_Validation</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        Passed</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <pre>pt1.3: 2021-02-22 12:06:44,158INFO: test_m1_ConditionText1_Validation
+2021-02-22 12:06:44,169INFO: ##### Started footer condition_text1 verification #####
+2021-02-22 12:06:46,318INFO: Validate footer condition_text1:: b'118+ &amp; 50 US/DC only. By 2/28/21, purchase a Samsung New Galaxy S21, S21+, or S21 Ultra with Samsung Financing, Carrier specific financing (when available as a payment method) or outright purchase at full retail price (\xe2\x80\x9cQualifying Purchase\xe2\x80\x9d), and receive a Samsung Galaxy SmartTag ($30 value) + Samsung Credit of either (i) $50 (S21), (ii) $75 (S21+), or (iii) $100 (S21 Ultra) (\xe2\x80\x9cGift\xe2\x80\x9d) and $50 Reserve Credit (\xe2\x80\x9cReservation Gift\xe2\x80\x9d). Reservation Gift applicable to customers that reserved the latest Galaxy from 12/27/2021 \xe2\x80\x93 1/14/2021 till 10:59 AM EST and purchase the latest Samsung Galaxy device on an installment plan, 2-year contract plan, lease or outright purchase at full retail price (\xe2\x80\x9cQualifying Purchase\xe2\x80\x9d). Gifts only available while supplies last. When making a Qualifying Purchase on Samsung.com or the App, you must either (i) use the Gift at check-out or (ii) not use any of the Gift at check-out and receive Gift by email approx. 15 days after the delivery of your Qualifying Purchase. Gift valid for use through 4/30/21 only and is a one-time use certificate; when first used, any value not used is lost. Gift is non-transferrable and limited to 1 per Qualifying Purchase. Samsung Credits are valid only at www.Samsung.com or in the App for use towards an eligible purchase. Void where prohibited or restricted by law. If you return or cancel your purchase the discount will be lost. Additional restrictions apply. Offer subject to additional terms here. Samsung reserves the right to modify or discontinue offer at any time by posting notice on the app or website.'
+2021-02-22 12:06:46,318INFO: #####  Verification Complete  #####
+
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+
+        <div id='ending'>&nbsp;</div>
+        
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById('chart'));
+
+        // Specify the configuration items and data of the chart
+        var option = {
+            title : {
+                text: 'Test_Image Execution',
+                x:'center'
+            },
+            tooltip : {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            color: ['#95b75d', '#b64645', '#FFA500'],
+            legend: {
+                orient: 'vertical',
+                left: 'left',
+                data: ['Passed','Failed','Error']
+            },
+            series : [
+                {
+                    name: 'Test_Image execution',
+                    type: 'pie',
+                    radius : '60%',
+                    center: ['50%', '60%'],
+                    data:[
+                        {value:3, name:'Passed'},
+                        {value:0, name:'Failed'},
+                        {value:0, name:'Error'}
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+
+        myChart.setOption(option);
+    </script>
+    
+    </div>
+</body>
+</html>

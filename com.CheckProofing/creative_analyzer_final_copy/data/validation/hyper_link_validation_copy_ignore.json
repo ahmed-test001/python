@@ -1,0 +1,112 @@
+{
+  "query_params": {
+    "utm_source": "samsung",
+    "utm_medium": "email",
+    "utm_campaign": "ebf_hhp_11062020",
+    "MKM_RID": "0245123429",
+    "MKM_MID": "FCP_723530944_PDM169452",
+    "cid": "eml-brd-mul-1120-3090-Reservers",
+    "bpid": "0245123429"
+  },
+
+  "header": [
+    {
+      "label": null,
+      "inner_text": "Get up to 80% off Galaxy smartphones and $50 or more instant credit toward accessories.",
+      "href": "https://www.samsung.com/us/shop/all-deals/cell-phone-deals/?utm_source=samsung&utm_medium=email&utm_campaign=ebf_hhp_11062020&marsLinkCategory=general:general&MKM_RID=0245123429&MKM_MID=FCP_723530944_PDM169452&cid=eml-brd-mul-1120-3090-Reservers&bpid=0245123429"
+    },
+    {
+      "label": "Free_Ship_Headline",
+      "inner_text": "Free shipping. Free  returns. No-touch delivery.",
+      "href": "https://www.samsung.com/us/shop/all-deals/cell-phone-deals/?utm_source=samsung&utm_medium=email&utm_campaign=ebf_hhp_11062020&marsLinkCategory=general:general&MKM_RID=0245123429&MKM_MID=FCP_723530944_PDM169452&cid=eml-brd-mul-1120-3090-Reservers&bpid=0245123429"
+    },
+    {
+      "label": "Samsung logo",
+      "inner_text": "",
+      "href": "https://www.samsung.com/us/?marsLinkCategory=general:general&MKM_RID=0245123429&MKM_MID=FCP_723530944_PDM169452&CID=eml-brd-mul-1120-3090-Reservers"
+    }
+  ],
+    "MB_GALAXY": [
+    {
+      "label": "Hero_Image",
+      "inner_text": "",
+      "href": "https://www.samsung.com/us/shop/all-deals/cell-phone-deals/?utm_source=samsung&utm_medium=email&utm_campaign=ebf_hhp_11062020&marsLinkCategory=general:general&MKM_RID=0245123429&MKM_MID=FCP_723530944_PDM169452&cid=eml-brd-mul-1120-3090-Reservers&bpid=0245123429"
+    },
+      {
+        "label": "Hero_Image2",
+      "inner_text": "",
+      "href": "https://www.samsung.com/us/shop/all-deals/cell-phone-deals/?utm_source=samsung&utm_medium=email&utm_campaign=ebf_hhp_11062020&marsLinkCategory=general:general&MKM_RID=0245123429&MKM_MID=FCP_723530944_PDM169452&cid=eml-brd-mul-1120-3090-Reservers&bpid=0245123429"
+      },
+    {
+      "label": "Hero_Text",
+      "inner_text": "Get up to 80% off and $50 or more instant credittoward accessories with any smartphone purchase.",
+      "href": "https://www.samsung.com/us/shop/all-deals/cell-phone-deals/?utm_source=samsung&utm_medium=email&utm_campaign=ebf_hhp_11062020&marsLinkCategory=general:general&MKM_RID=0245123429&MKM_MID=FCP_723530944_PDM169452&cid=eml-brd-mul-1120-3090-Reservers&bpid=0245123429"
+    },
+    {
+      "label": "Hero_CTA",
+      "inner_text": "",
+      "href": "https://www.samsung.com/us/shop/all-deals/cell-phone-deals/?utm_source=samsung&utm_medium=email&utm_campaign=ebf_hhp_11062020&marsLinkCategory=general:general&MKM_RID=0245123429&MKM_MID=FCP_723530944_PDM169452&cid=eml-brd-mul-1120-3090-Reservers&bpid=0245123429"
+    }
+  ],
+  "MB_FOLD": [
+    {
+      "module": "Hero_Image",
+      "content": {
+        "label": "",
+        "inner_text": "",
+        "href": ""
+      }
+    },
+    {
+      "module": "Hero_Text",
+      "content": {
+        "label": "",
+        "inner_text": "",
+        "href": ""
+      }
+    },
+    {
+      "module": "Hero_CTA",
+      "content": {
+        "label": "",
+        "inner_text": "",
+        "href": ""
+      }
+    }
+  ],
+  "MB_MIDTIER": [
+    {
+      "module": "Hero_Image",
+      "content": {
+        "label": "",
+        "inner_text": "",
+        "href": ""
+      }
+    },
+    {
+      "module": "Hero_Text",
+      "content": {
+        "label": "",
+        "inner_text": "",
+        "href": ""
+      }
+    },
+    {
+      "module": "Hero_CTA",
+      "content": {
+        "label": "",
+        "inner_text": "",
+        "href": ""
+      }
+    }
+  ],
+  "Reservers-MB_FOLD":[
+    {
+      "module": "header"
+    },
+    {
+      "module": "MB_GALAXY"
+    }
+
+  ]
+}

@@ -1,0 +1,579 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- A little more standards friendly. utf-8 works for most cases -->
+<meta name="viewport" content="width=device-width" />
+<!-- Forcing initial-scale shouldn't be necessary -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- Use the latest (edge) version of IE rendering engine -->
+<meta name="x-apple-disable-message-reformatting" />
+<!-- Disable auto-scale in iOS 10 Mail entirely -->
+<title>SAMSUNG</title>
+<!-- The title tag shows in email notifications, like Android 4.4. --> 
+
+<!-- CSS Reset -->
+<style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+
+
+html, body {
+  margin: 0 auto !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+/* What it does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+  margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table, td {
+  mso-table-lspace: 0pt !important;
+  mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+  border-spacing: 0 !important;
+  border-collapse: collapse !important;
+  table-layout: fixed !important;
+  margin: 0 auto !important;
+}
+table table table {
+  table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+/* Affects Address universal block, stopping blue linking*/
+.addressColor {
+  color: #6d6e71 !important;
+}
+/* Prevents Links from Changing Color after Clicking. Mostly for Outlook*/
+a:visited {
+  color: inherit !important;
+}
+span.msoHyperlink {
+  mso-style-priority: 99;
+  color: inherit;
+}
+span.msoHyperlinkFollowed {
+  mso-style-priority: 99;
+  color: inherit;
+}
+/* What it does: A work-around for email clients meddling in triggered links. */
+
+.x-gmail-data-detectors,    /* Gmail */ .x-gmail-data-detectors *, .aBn {
+  border-bottom: 0 !important;
+  cursor: default !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+/*Fix for Outlook.com and 365 gaps*/
+div, button {
+  vertical-align: bottom;
+}
+th {
+  font-weight: normal;
+}
+.fluid {
+  max-width: 100% !important;
+  height: auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+	
+.btn-hover:hover { background:#666666 !important; background-color:#666666 !important; -webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; -ms-transition: All 0.5s ease; transition: All 0.5s ease; }
+	
+.txt-btn-hover:hover { color:#666666 !important;  -webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; -ms-transition: All 0.5s ease; transition: All 0.5s ease; }
+	
+.top-round {
+	border-top-left-radius: 30px;	
+	border-top-right-radius: 30px;
+	-webkit-border-top-left-radius: 30px;	
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-top-left-radius: 30px;	
+	-moz-border-top-right-radius: 30px;
+	-ms-border-top-left-radius: 30px;	
+	-ms-border-top-right-radius: 30px;	
+}
+	
+.bottom-round {
+	border-bottom-left-radius: 30px;	
+	border-bottom-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;	
+	-webkit-border-bottom-right-radius: 30px;
+	-moz-border-bottom-left-radius: 30px;	
+	-moz-border-bottom-right-radius: 30px;
+	-ms-border-bottom-left-radius: 30px;	
+	-ms-border-bottom-right-radius: 30px;	
+}
+
+@media screen and (max-width: 480px) {
+.email-container {
+  width: 100% !important;
+}
+div.mobileBorder {
+  border-left: #f4f4f4 solid 10px !important;
+  border-right: #f4f4f4 solid 10px !important;
+}
+/* What it does: Forces table cells into full-width rows. */
+.stack-column-center {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: center !important;
+}
+.stack-column-91 {
+  display: block !important;
+  width: 91%!important;
+  max-width: 91% !important;
+  text-align: center !important;
+}
+.center-on-narrow {
+  text-align: center !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+table.center-on-narrow {
+  display: inline-block !important;
+}
+.rw-pLR10 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.pdB10 {
+  padding-bottom: 10px !important;
+}
+.pdLR0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+td.subCopy, a.subCopy {
+  font-size: 3.3vw !important;
+  line-height: 5vw !important;
+}
+td.subCopy {
+  padding: 0 25px !important;
+}
+td.hr.subCopy, a.hr.subCopy {
+  font-size: 4.16vw !important;
+  line-height: 6.25vw !important;
+}
+td.hr.subCopy {
+  padding: 0 25px !important;
+}
+td.title.pricing {
+  font-size: 3.75vw !important;
+  line-height: 5vw !important;
+  padding: 5px !important;
+}
+td.pricing {
+  font-size: 3.541vw !important;
+  line-height: 5vw !important;
+  padding: 5px !important;
+}
+td.subTitle.pricing, td.devices.pricing {
+  font-size: 2.916vw !important;
+  line-height: 5vw !important;
+  padding: 5px !important;
+}
+/* Add custom style classes for one-off elements */
+td.custom1, a.custom1 {
+  font-size: 3.12vw !important;
+  line-height: 4.58vw !important;
+}
+td.custom2, a.custom2 {
+  font-size: 3.33vw !important;
+  line-height: 4.16vw !important;
+}
+img.custom3 {
+  width: 14.16vw !important;
+}
+img.custom4 {
+  width: 16.45vw !important;
+}
+img.custom5 {
+  width: 40.83vw !important;
+}
+img.custom7 {
+  width: 48.95vw !important;
+}
+/* For EPP/Gray banner at top of email : BEGIN */
+.custom8 {
+  font-size: 4.583vw !important;
+  line-height: 5.83vw !important;
+}
+/* For EPP/Gray banner at top of email : BEGIN */
+}
+</style>
+	
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+</style>	
+	
+<style>
+/* What it does: A work-around for iOS meddling in triggered links. Gmail will strip this. */
+*[x-apple-data-detectors]  /* iOS */ {
+  color: inherit !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  cursor: default !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+</style>
+<%@ include view='PVIEW230' %>
+<%
+
+var firstModuleAlt = "Pre-order the Galaxy Z Fold2 5G now to unlock an exclusive $50 instant credit.* Plus, save up to $500&dagger; with your eligible trade-in.&dagger;&dagger;";
+var preheader = "Pre-order now to get up to $800<sup>&Dagger;</sup> with<span>&nbsp;</span>trade&#8209;in.<sup>&Dagger;&Dagger;</sup>";
+var segmentCode = targetData.segmentCode ? targetData.segmentCode : "";
+ 
+ if (segmentCode == "EPP") {
+ var firstModuleAlt = "Get an exclusive $50 instant credit when you pre-order your Galaxy Z Fold2 5G now.* Plus, save up to $500<sup>&Dagger;</sup> with your eligible trade&#8209;in.<sup>&Dagger;&Dagger;</sup> And with your member discount, take an additional 7.5% off.<sup>&Dagger;&Dagger;</sup>";
+ }
+%>
+</head>
+<body width="100%" bgcolor="#f4f4f4" style="margin:0; padding:0; width:100% !important;">
+<center style="width:100%; background:#f4f4f4;">
+  <!-- Visually Hidden Preheader Text : BEGIN -->
+  <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family:sans-serif;"> <%= preheader %> - <%= firstModuleAlt %> 
+    <!--This is for the five Pixel Tracking --> 
+    <img src="http://samsungelectronicsamericainc.demdex.net/event?d_cid_ic=my_samus_crm%01<%=recipient.BPNumber%>%011&d_cid_ic=AdobeCampaignID%01<%=recipient.BPNumber%>%011&d_sid=14954485" width="0" height="0" />
+    <%@ include view='PVIEW24' %>
+  </div>
+  <!-- Visually Hidden Preheader Text : END -->
+  <div style="max-width:480px; margin:auto;" class="mobileBorder"> 
+    <!--[if mso]>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="480" align="center">
+            <tr>
+            <td>
+            <![endif]--> 
+    <!-- PreHeader : BEGIN -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width:480px;">
+      <tr>
+        <td style="padding:20px 0 20px 0px; text-align:center;font:11px Arial, Helvetica, sans-serif; mso-line-height-rule:exactly; line-height:14px; color:#727272;"> <a _label="Preheader" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#727272; text-decoration:underline;"><%= preheader %></a> </td>
+      </tr>
+    </table>
+    <!-- PreHeader : END --> 
+    <!-- Email Body : BEGIN -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="background-color:#f4f4f4; padding:0;">
+      <tr>
+        <td align="left" valign="top" bgcolor="#f4f4f4" style="background-color:#f4f4f4; color:#000001;"> 
+          <!-- Logo, Flush : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td> <a _label="Samsung logo" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/606a97b4eacf77efea66e773e4371ff4.jpg" width="480" alt="SAMSUNG" border="0" style="display:block; width:100%; max-width:480px;" /></a> </td>
+            </tr>
+          </table>
+          <!-- Logo, Flush : END --> 
+          <!-- Banner : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+             	<td width="0" height="25" style="background-color:#ffffff;line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      		</tr>
+			 <tr>
+              <td align="left" valign="top" style="font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;"> <a _label="Banner_Image" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#000001;"><img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/c06b83f49c86184c8e16a2b80f123af0.jpg" width="480" alt="Your private pre-order offer won't last long." border="0" style="display:block; width: 100%; max-width: 480px;" /></a> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#ffffff;" width="100%" bgcolor="#ffffff">
+			 <tr>
+             	<td width="0" height="25" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      		</tr>
+            <tr>
+              <td align="left" valign="top" class="subCopy" style="text-align:center; font: 16px Arial, Helvetica, sans-serif; color:#000001; padding:0px 40px; mso-line-height-rule:exactly; line-height:24px; background-color:#ffffff;" bgcolor="#ffffff"> <a _label="Banner_Text" class="subCopy" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#000001; mso-line-height-rule:exactly; line-height:24px; text-decoration:none;">
+                <% if (segmentCode == "EPP") { %>
+				Get an exclusive $50 instant credit when you pre-order your Galaxy Z Fold2 5G now.* Plus, save up to $500<sup style="line-height: 0px;">&Dagger;</sup> with your eligible trade&#8209;in.<sup style="line-height: 0px;">&Dagger;&Dagger;</sup> And with your member discount, take an additional 7.5%<span>&nbsp;</span>off.<sup style="line-height: 0px;">&Dagger;&Dagger;</sup>
+					
+				
+                <% } else { %>
+				Pre-order the Galaxy Z Fold2 5G now to unlock an exclusive $50 instant credit.* Plus, save up to $500<sup style="line-height: 0px;">&Dagger;</sup> with your eligible<span>&nbsp;</span>trade&#8209;in.<sup style="line-height: 0px;">&Dagger;&Dagger;</sup>
+				
+                <% } %>
+                </a> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td align="left" valign="top" style="font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;"> <img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/f0b264756d0fa6c8223392618385d856.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width: 480px;" /></td>
+            </tr>
+          </table>
+			
+          <!-- Banner : END --> 
+          <!-- 10px Space : BEGIN -->
+           <table>
+       <tr>
+             	<td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      </tr>
+</table>
+          <!-- 10px Space : END --> 
+          <!-- Hero : BEGIN -->
+				  
+		
+				  
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+             <tr>
+              <td align="left" valign="top" style="font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;"> <img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/528a830355c8f1b4eb295762bd5e92d8.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width: 480px;" /></td>
+            </tr>
+			
+			<tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#ffffff; padding:0;"> <a _label="Hero" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#ffffff;"><img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/478738775b35efabde9ab4b5a75fbebc.jpg" width="480" alt="Galaxy Z Fold2 5G" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+		</table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#000000;" width="100%" bgcolor="#000000">
+			 <tr>
+             	<td width="0" height="30" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      		</tr>
+            <tr>
+              <td align="left" valign="top" class="subCopy" style="text-align:center; font: 16px Arial, Helvetica, sans-serif; color:#000001; padding:0px 40px; mso-line-height-rule:exactly; line-height:24px; background-color:#000000;" bgcolor="#000000"><a _label="Hero_Text" class="subCopy" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#FFFFFF; mso-line-height-rule:exactly; line-height:24px; text-decoration:none;"><span style="color: #ffffff; max-width:480px;">
+                <% if (segmentCode == "EPP") { %>
+				Pre-order the Galaxy Z Fold2 5G with your member discount. Prices start at $28.91 per month for 48 months<sup style="line-height: 0px;">&dagger;</sup> or $1387.49 with eligible trade-in.<sup style="line-height: 0px;">&Dagger;&Dagger;</sup>
+				<br><br>
+				Galaxy Fold and Z Flip users get up to $800 off Galaxy Z Fold2 5G, starting at $23.13 per month for 48 months<sup style="line-height: 0px;">&dagger;</sup> or $1109.99 with member discount and eligible trade-in.<sup style="line-height: 0px;">&Dagger;&Dagger;</sup>
+					
+			
+                <% } else { %>
+				Discover the Galaxy Z Fold2 5G, starting at $31.25 per month for 48 months<sup style="line-height: 0px;">&dagger;</sup> or $1499.99 with eligible trade-in.<sup style="line-height: 0px;">&Dagger;&Dagger;</sup>
+				<br><br>
+				Galaxy Fold and Z Flip users get up to $800 off Galaxy Z Fold2 5G, starting at $25 per month for 48 months<sup style="line-height: 0px;">&dagger;</sup> or $1199.99 with eligible trade-in.<sup style="line-height: 0px;">&Dagger;&Dagger;</sup>
+					
+			
+                <% } %>
+                </span></a> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td align="left" valign="top" style="font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;"><a _label="Hero_CTA" class="subCopy" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#FFFFFF; mso-line-height-rule:exactly; line-height:24px; text-decoration:none;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_Week_36_Fold2_Private_Pre-order_T1_202808_04.png" width="480" alt="PRE-ORDER NOW" border="0" style="display:block; width: 100%; max-width: 480px;" /></a></td>
+            </tr>
+          </table>
+          <!-- Hero : END --> 
+          <!-- 10px Space : BEGIN -->
+           <table>
+       <tr>
+             	<td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      </tr>
+</table>
+          <!-- 10px Space : END --> 
+          <!-- Ecosystem : BEGIN -->
+          
+				  
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+           <tr>
+              <td align="left" valign="top" style="font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;"> <img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/528a830355c8f1b4eb295762bd5e92d8.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width: 480px;" /></td>
+            </tr>
+			
+			<tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#ffffff; padding:0;"> <a _label="Ecosystem_Image" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#ffffff;"><img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/1dc83f86d71680f23d19747e3bfd85f8.jpg" width="480" alt="Expand your Galaxy Ecosystem." border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+			
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#000000;" width="100%" bgcolor="#000000">
+			 <tr>
+             	<td width="0" height="25" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      		</tr>
+            <tr>
+              <td align="left" valign="top" class="subCopy" style="text-align:center; font: 16px Arial, Helvetica, sans-serif; color:#000001; padding:0px 40px; mso-line-height-rule:exactly; line-height:24px; background-color:#000000;" bgcolor="#000000"><a _label="Ecosystem_Text" class="subCopy" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#FFFFFF; mso-line-height-rule:exactly; line-height:24px; text-decoration:none;"><span style="color: #ffffff; max-width:480px;">Redeem your instant credit to save on Galaxy Buds Live and Galaxy Watch3. Get them together for $250 (a $620 value), when you purchase them with a Galaxy Z Fold2<span>&nbsp;</span>5G.**</span></a> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td align="left" valign="top" style="font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;"><a _label="Ecosystem_CTA" class="subCopy" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#FFFFFF; mso-line-height-rule:exactly; line-height:24px; text-decoration:none;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_Week_36_Fold2_Private_Pre-order_T1_202808_06.png" width="480" alt="PRE-ORDER NOW" border="0" style="display:block; width: 100%; max-width: 480px;" /></a></td>
+            </tr>
+          </table>
+          <!-- Ecosystem : END --> 
+          <!-- 10px Space : BEGIN -->
+           <table>
+       <tr>
+             	<td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      </tr>
+</table>
+          <!-- 10px Space : END --> 
+          <!-- Fold2 : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000001; padding:0;"> <a _label="Fold2" href="https://shopsamsung.page.link?link=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&utm_source=samsung&utm_medium=email&utm_campaign=fold2_launch_base_08252020&marsLinkCategory=mphone:mphone&MKM_RID=<%= recipient.BPNumber %>&MKM_MID=<%= delivery.internalName %>&cid=<%= targetData.CID %><%= targetData.segmentCode %>&bpid=<%= recipient.BPNumber %>&apn=com.samsung.ecomm&al=samsungestore%3A%2F%2Fopenwebview%23url%3Dhttps%3A%2F%2Fwww.samsung.com%2Fus%2Fbuy%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Findex.html%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%23utm_source%3Dsamsung%23utm_medium%3Demail%23utm_campaign%3Dfold2_launch_base_08252020%23marsLinkCategory%3Dmphone:mphone%23MKM_RID%3D<%= recipient.BPNumber %>%23MKM_MID%3D<%= delivery.internalName %>%23cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%23bpid%3D<%= recipient.BPNumber %>&afl=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmartphones%2Fgalaxy-z-fold2-5g%2Fbuy%2F%3FofferCID%3Dpreorder%26promoCode%3D<%= targetData.promoCode %>%26utm_source%3Dsamsung%26utm_medium%3Demail%26utm_campaign%3Dfold2_launch_base_08252020%26marsLinkCategory%3Dmphone:mphone%26MKM_RID%3D<%= recipient.BPNumber %>%26MKM_MID%3D<%= delivery.internalName %>%26cid%3D<%= targetData.CID %><%= targetData.segmentCode %>%26bpid%3D<%= recipient.BPNumber %>&efr=1" target="_blank" style="color:#000001;"> <img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/88bbbb196bb566025bfd6b91145fbef8.png" width="480" alt="Galaxy Z Fold2 5G: a device unlike any other - Two screens, one experience - Immerse yourself in two seamless, cinematic displays with the Hideaway Hinge. - Discover Flex Mode. - Enjoy hands-free chatting, browsing and more with a device that stands on its own. - Do it all. All at once. - Drag, drop, work and play with up to three apps on one screen. - Get the VIP treatment. - Enjoy access to top tier perks and partners, plus complimentary concierge support. - PRE-ORDER NOW" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+          <!-- Fold2 : END --> 
+          <!-- 10px Space : BEGIN -->
+           <table>
+       <tr>
+             	<td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      </tr>
+</table>
+          <!-- 10px Space : END --> 
+          <!-- Rewards_Image : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;"> <img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/4abe44e746fe9cf21bad190254989521.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width: 480px;" /></td>
+            </tr>
+          </table>
+          <!-- Pay Over Time, Free Shipping, and Rewards - Three Columns : BEGIN -->
+          <table role="presentation" style="max-width:480px;" cellspacing="0" cellpadding="0" border="0" width="100%" class="email-container">
+            <tr>
+              <td align="center" valign="top" bgcolor="#ffffff">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#ffffff;" width="100%" bgcolor="#ffffff">
+                  <tr> 
+                    <!-- Pay Over Time : BEGIN -->
+                    <th width="33%" align="center" class="stack-column-91 rw-pLR10" valign="top" style="font-weight: normal; padding:5px; font-family: Arial, sans-serif; mso-height-rule: exactly; text-align: center; color: #000001;"> <a href="http://www.samsung.com/us/financing/?marsLinkCategory=general:general&<%= tracking %>" _label="Pay_Over_Time_Image"><img src="http://t.info.samsungusa.com/res/samsung/M8_Template_PayOverTime_180716_01.png" width="79" alt="" border="0" style="display:block; margin:auto;" class="fluid custom4" /></a>
+                      <h3 style="font-size: 18px; line-height: 20px; margin: 15px 15px 0; font-weight: bold;" class="center-on-narrow custom1"><a href="http://www.samsung.com/us/financing/?marsLinkCategory=general:general&<%= tracking %>" _label="Pay_Over_Time_Title" target="_blank" style="color:#000001; text-decoration:none;" class="custom1">PAY<br/>
+                        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>LATER.</a> </h3>
+                      <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 20px; margin:10px 15px 0;" class="center-on-narrow custom2"><a href="http://www.samsung.com/us/financing/?marsLinkCategory=general:general&<%= tracking %>" _label="Pay_Over_Time_Copy" target="_blank" style="color:#000001; text-decoration:none;" class="custom2">Convenient financing available with $0<span>&nbsp;</span>down.<sup style="line-height: 0;">&dagger;&dagger;</sup></a> </p>
+                    </th>
+                    <!-- Pay Over Time : END --> 
+                    <!-- Free Shipping : BEGIN -->
+                    <th width="33%" align="center" class="stack-column-91 rw-pLR10" valign="top" style="font-weight: normal; padding:5px; font-family: Arial, sans-serif; mso-height-rule: exactly; text-align: center; color: #000001;"> <a href="https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup" _label="Free_Returns_Image" target="_blank" style="color:#000001; text-decoration:none;"><img src="http://t.info.samsungusa.com/res/samsung/M8_Template_FreeShipping_180716_01.png" width="79" alt="" border="0" style="display:block; margin:auto;" class="fluid custom4" /></a>
+                      <h3 style="font-size: 18px; line-height: 20px; margin: 15px 15px 0; font-weight: bold;" class="center-on-narrow custom1"><a href="https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup" _label="Free_Returns_Title" target="_blank" style="color:#000001; text-decoration:none;" class="custom1">FREE<br/>
+                        SHIPPING.</a> </h3>
+                      <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 20px; margin:10px 15px 0;" class="center-on-narrow custom1"><a href="https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup" _label="Free_Returns_Copy" target="_blank" style="color:#000001; text-decoration:none;" class="custom2">Get your favorite items delivered right to your<span>&nbsp;</span>doorstep.</a> </p>
+                    </th>
+                    <!-- Free Shipping : END --> 
+                    <!-- Get Rewarded : BEGIN -->
+                    <th width="33%" align="center" class="stack-column-91 rw-pLR10" valign="top" style="font-weight: normal; padding:5px; font-family: Arial, sans-serif; mso-height-rule: exactly; text-align: center; color: #000001;"> <a href="https://www.samsung.com/us/rewards?marsLinkCategory=general:general<%= tracking %>" _label="Get_Rewarded_Image" target="_blank" style="color:#000001; text-decoration:none;"><img src="http://t.info.samsungusa.com/res/samsung/M8_Template_Rrewards_190801_01.png" width="79" alt="" border="0" style="display:block; margin:auto;" class="fluid custom4" /></a>
+                      <h3 style="font-size: 18px; line-height: 20px; margin: 15px 15px 0; font-weight: bold;" class="center-on-narrow custom1"><a href="https://www.samsung.com/us/rewards?marsLinkCategory=general:general<%= tracking %>" _label="Get_Rewarded_Title" target="_blank" style="color:#000001; text-decoration:none;" class="custom1">GET<br/>
+                        REWARDED.</a> </h3>
+                      <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 20px; margin:10px 15px 0;" class="center-on-narrow custom2"><a href="https://www.samsung.com/us/rewards?marsLinkCategory=general:general<%= tracking %>" _label="Get_Rewarded_Copy" target="_blank" style="color:#000001; text-decoration:none;" class="custom2">Earn Samsung points on every purchase.</a> </p>
+                    </th>
+                    <!-- Get Rewarded : END --> 
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!-- Pay Over Time, Free Shipping, and Rewards - Three Columns : END --> 
+          <!-- Rewards_Image_CTA : END -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;"> <img src="http://samsungelectronicsamericainc-mkt-stage3-res.adobe-campaign.com/res/samsung_mkt_stage3/f0b264756d0fa6c8223392618385d856.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width: 480px;" /></td>
+            </tr>
+          </table>
+          <!-- 10px Space : BEGIN -->
+           <table>
+       <tr>
+             	<td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      </tr>
+</table>
+          <!-- 10px Space : END --> 
+          <!-- Shop_App : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_tc_200211_01.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width:480px;" /> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="center" valign="top" style="text-align:center; background-color:#ffffff; font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;" bgcolor="#ffffff"> <img src="http://t.info.samsungusa.com/res/samsung/M8_Template_Shop_180716_01.png" width="68" alt="Shop" class="fluid custom3" style="display:block; margin:auto;" border="0" /> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" style="background-color:#ffffff; font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;" bgcolor="#ffffff"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_200211_04.jpg" width="480" alt="Get the Shop Samsung App" border="0" style="display:block; width: 100%; max-width:480px;" /> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#ffffff;" width="100%" bgcolor="#ffffff">
+            <tr>
+              <th width="50%" align="right" valign="top" class="stack-column-center pdLR0" style="padding: 0; text-align: right"> <a _label="Download_App_Google" href="https://play.google.com/store/apps/details?id=com.samsung.ecomm&referrer=%26utm_source%3Ds_com%26utm_medium%3Demail%26utm_campaign%3DMKM_MID%3D<%= delivery.internalName %>%26CID%3D<%= targetData.CID %><%= targetData.segmentCode %>%26marsLinkCategory%3Dapps:apps%26MKM_RID%3D<%= recipient.BPNumber %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_05.jpg" width="196" alt="GET IT ON Google Play" class="fluid custom5" border="0" /></a> </th>
+              <th width="50%" align="left" valign="top" class="stack-column-center pdLR0" style="padding: 0; text-align: left"> <a _label="Download_App_Apple" href="https://itunes.apple.com/app/apple-store/id1274679179?pt=118714161&ct=s_com_email_footer_cid_<%= targetData.CID %><%= targetData.segmentCode %>&mt=8&marsLinkCategory=apps:apps" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_06.jpg" width="196" alt="Download on the App Store" class="fluid custom5" border="0" /></a> </th>
+            </tr>
+          </table>
+          <!-- Shop_App : END -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_bc_200211_01.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width:480px;" /> </td>
+            </tr>
+          </table>
+          <!-- 10px Space : BEGIN -->
+           <table>
+       <tr>
+             	<td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+      </tr>
+</table>
+          <!-- 10px Space : END --> 
+          <!-- Grey Navigation Links : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <th width="50%" align="right" valign="top" class="stack-column-center pdLR0 pdB10" style="padding: 0 5px 0 0; text-align: right"> <a _label="Footer_Free_Shipping_Details" href="https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_07.png" width="235" alt="FREE SHIPPING DETAILS" class="fluid custom7" border="0" /></a> </th>
+              <th width="50%" align="left" valign="top" class="stack-column-center pdLR0" style="padding: 0 0 0 5px; text-align: left"> <a _label="Footer_Mobile" href="http://www.samsung.com/us/mobile/phones/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_08.png" width="235" alt="MOBILE" class="fluid custom7" border="0" /></a> </th>
+            </tr>
+          </table>
+          <!-- Space : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font: 9px Arial, Helvetica, sans-serif; color:#ffffff; padding:0 0 0 0;">&nbsp; </td>
+            </tr>
+          </table>
+          <!-- Space : END -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <th width="50%" align="right" valign="top" class="stack-column-center pdLR0 pdB10" style="padding: 0 5px 0 0; text-align: right"> <a _label="Footer_TV_Audio" href="http://www.samsung.com/us/televisions-home-theater/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_09.png" width="235" alt="TV &amp; AUDIO" class="fluid custom7 custom7" border="0" /></a> </th>
+              <th width="50%" align="left" valign="top" class="stack-column-center pdLR0" style="padding: 0 0 0 5px; text-align: left"> <a _label="Footer_Computing" href="http://www.samsung.com/us/computing/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_10.png" width="235" alt="COMPUTING" class="fluid custom7" border="0" /></a> </th>
+            </tr>
+          </table>
+          <!-- Space : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font: 9px Arial, Helvetica, sans-serif; color:#ffffff; padding:0 0 0 0;">&nbsp; </td>
+            </tr>
+          </table>
+          <!-- Space : END -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <th width="50%" align="right" valign="top" class="stack-column-center pdLR0 pdB10" style="padding: 0 5px 0 0; text-align: right"> <a _label="Footer_Appliances" href="http://www.samsung.com/us/home-appliances/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_11.png" width="235" alt="APPLIANCES" class="fluid custom7" border="0" /></a> </th>
+              <th width="50%" align="left" valign="top" class="stack-column-center pdLR0" style="padding: 0 0 0 5px; text-align: left"> <a _label="Footer_WeeklyOffers" href="http://www.samsung.com/us/shop/all-deals/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_12.png" width="235" alt="WEEKLY OFFERS" class="fluid custom7" border="0" /></a> </th>
+            </tr>
+          </table>
+          <!-- Grey Navigation Links : END --> 
+        </td>
+      </tr>
+    </table>
+    <!-- Email Body : END --> 
+    <!-- Social White Background Footers Begin -->
+    <%@ include view='PVIEW489' %>
+    <!-- Social White Background Footers End --> 
+    <!-- Email Footer : BEGIN -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width:480px;">
+      <tr>
+        <td style="padding:0px 10px 40px 0px;width:100%;font-size:12px; font-family:Arial, Helvetica, sans-serif; mso-height-rule:exactly; line-height:16px; text-align:left; color:#727272;"> *18+ &amp; 50 US/DC only. (PR/USVI not eligible). By 9&#65279;/&#65279;17&#65279;/&#65279;20 ("Purchase Period"), pre&#8209;order and purchase a Samsung Galaxy Z Fold2 or Galaxy Z Fold2 Thom Browne with Samsung Financing, Carrier specific financing (when available as a payment method) or outright purchase at full retail price ("Qualifying Purchase"), and receive a $50 Samsung Credit for with a Galaxy Z Fold2 or Galaxy Z Fold2 Thom Browne purchase. Reservation Gift applicable to customers that reserved the latest Galaxy in the reserve period from 8&#65279;/&#65279;5&#65279;/&#65279;20&#65279;20 &ndash; 9&#65279;/&#65279;1&#65279;/&#65279;20&#65279;20 at 1&#65279;1:&#65279;5&#65279;9 P&#65279;M ES&#65279;T and pre&#8209;order and purchase the latest Samsung Galaxy device on an installment plan, 2-year contract plan, lease or outright purchase at full retail price ("Qualifying Purchase"). Samsung Credits are valid only at <a _label="Legal(1)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Samsung.com</a> or in the App for use towards an eligible purchase including wearables, tablets, PCs and select accessories and valid through 12&#65279;/&#65279;20&#65279;/&#65279;20 at 1&#65279;1:&#65279;5&#65279;9 P&#65279;M ES&#65279;T. Gifts subject to availability and are non-transferrable. Limit 1 Gift per Qualifying Purchase. Gifts only available while supplies last. When making a Qualifying Purchase on <a _label="Legal(2)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Samsung.com</a> or the App, you must either (i) use the Gift at check-out or (ii) not use any of the Gift at check-out and receive Gift by email approximately 35 days after the delivery of your Qualifying Purchase; any value not used is lost. Additional restrictions apply. Void where prohibited or restricted by law. Offer subject to additional terms <a _label="Legal(3)" href="https://www.samsung.com/us/trade-in/terms-and-conditions/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">here</a>. Samsung reserves the right to modify or discontinue offer at any time by posting notice on the app or<span>&nbsp;</span>website.<br />
+          <br />
+          **18+ &amp; 50 US/DC/PR/USVI only. Pre order a Galaxy Z Fold2 5G device and purchase Galaxy Buds Live and Galaxy Watch3 from 9&#65279;/&#65279;1&#65279;/&#65279;20 &ndash; 9&#65279;/&#65279;30&#65279;/&#65279;20 on an installment plan, 2-year contract plan, lease or outright purchase at full retail price ("Qualifying Purchase"), and get $250 for Galaxy Buds Live and Galaxy Watch3 (est. value $620). Only available on purchases made on <a _label="Legal(4)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Samsung.com</a>, and all products must be purchased on the same transaction. Only available while supplies last. Offer subject to additional terms <a _label="Legal(9)" href="https://www.samsung.com/us/trade-in/terms-and-conditions/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">here.</a> Samsung reserves the right to modify or discontinue offer at any time by posting notice on the app or<span>&nbsp;</span>website.<br />
+          <br />
+          <sup style="line-height: 0px;">&dagger;</sup>0% APR for 24, 36 and 48 Months with Equal Payments: Available on purchases of select products charged to a Samsung Financing account. Minimum purchase: $49 for 24 months on phones, mobile accessories, tablets, PCs, and wearables; $299.99 for 36 months on phones, mobile accessories, tablets, PCs and wearables; $499.99 for 36 months on TVs; and $999.99 for 48 months on TVs. 0% APR from date of eligible purchase until paid in full. Monthly payment equals the eligible purchase amount multiplied by a repayment factor and rounded to the nearest penny (repayment factors: .04167 for 24 month, .02778 for 36 month, .02083 for 48 month). Last payment may vary due to rounding. Total amount of payments will not exceed eligible purchase amount. Other transactions and fees affect overall minimum payment amount. Advertised payment amount excludes taxes, delivery or other charges. Limited time offer. Regular account terms apply to non-promo purchases. Minimum interest charge: $1. Standard Purchase APR: 29.99%. Prior purchases excluded. Account must be in good standing. Subject to credit approval. Samsung Financing account issued by TD Bank,<span>&nbsp;</span>N.A.<br />
+          <br />
+          <sup style="line-height: 0px;">&Dagger;</sup>Galaxy Z Flip &amp; Galaxy Fold users, get Galaxy Z Fold2 5G for as low as $1199.99 with up to $800 trade-in value on eligible<span>&nbsp;</span>phones.<br>
+          <br>
+          <sup style="line-height: 0px;">&Dagger;&Dagger;</sup>For a limited time only, on <a _label="Legal(5)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Samsung.com/Shop</a> Samsung App, pre order or purchase a new qualifying Galaxy device ("Qualifying Purchase"), send in your qualifying trade-in device to Samsung through the Samsung Trade-In Program, and if Samsung determines your trade-in device meets all eligibility requirements, you will receive a trade-in credit specific to your qualifying trade-in device to apply toward your Qualifying Purchase. Device models that currently qualify for trade-in and trade-in credit amounts associated with those models are available on <a _label="Legal(6)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Samsung.com</a> and the Shop Samsung App; eligible models and amounts may change at Samsung's sole discretion. To be eligible for trade-in, your qualifying device must meet all Trade-In Program eligibility requirements, which include, but are not limited to, that the device powers on, holds a charge, and does not power off unexpectedly; has a functioning display; has no breaks or cracks in the screen (unless a cracked screen offer applies); has no breaks or cracks in the case; has no liquid damage (whether visible or not); has no other defects that go beyond normal wear and tear; is not on a black list; has a verified FCC ID; has been reset to factory settings; has all personal information removed; has all software locks disabled; and is owned by you (leased devices are not eligible). Anticipated trade-in value will be applied as a credit at time of purchase, but, if you do not send in your trade-in device within 15 days of receipt of your Qualifying Purchase, you will be charged back for the trade-in credit applied to your purchase, or if you send in your trade-in device within 15 days of receipt of your Qualifying Purchase but Samsung determines your device does not meet all eligibility requirements, you will be charged back for the trade-in credit applied to your purchase minus $25. Participation in this program does not excuse you from contracts with your carrier or retailer (or any related payments or fees) for the device that was traded in. Limit 1 trade-in per Qualifying Purchase. Samsung reserves the right to modify or discontinue this offer at any time. The Trade-In Program cannot be combined with any other Samsung, carrier or retailer promotions, discounts, or offers unless specifically provided for in the terms and conditions of such offers. Additional terms, including terms that govern the resolution of disputes, apply. Click <a _label="Legal(7)" href="https://www.samsung.com/us/trade-in/terms-and-conditions/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">here</a> to learn more.<br>
+          <br>
+          <sup style="line-height: 0px;">&dagger;&dagger;</sup>No Interest if Paid in Full within 6, 12, 24 Months: Available on purchases on <a _label="Legal(8)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Samsung.com</a> charged to a Samsung Financing Program Account; on purchases of $250 to $499.99 for 6&ndash;months, $500 or more for 12&ndash;months. To avoid interest, you must pay the full promo balance before the promo period ends. If you do not, we will charge interest from the purchase date at the standard Purchase APR. After the promo period ends, the standard APR also applies to the remaining balance and the charged interest. You are required to make minimum payments, but minimum payments will not pay off the balance on time. You must make larger payments to avoid the interest. Advertised monthly payment, if any, is greater than your required minimum monthly payment and excludes taxes, delivery or other charges. Limited Time Offer. Regular account terms apply to non&ndash;promo purchases. Minimum interest charge: $1. Standard Purchase APR: 29.99%. Prior purchases excluded. Account must be in good standing. Subject to credit approval. Samsung Financing Program Account issued by TD Bank,<span>&nbsp;</span>N.A.<br>
+          <br>
+          <%@ include view='PVIEW27' %>
+          Samsung Electronics America, Inc. Samsung, Galaxy, Samsung Galaxy Fold, Galaxy Buds and Galaxy Watch are registered trademarks, and Samsung Galaxy Flip, Galaxy Buds Live and Hideaway Hinge are trademarks of Samsung Electronics Co., Ltd. Use only in accordance with law. Other company and product names mentioned may be trademarks of their respective owners. Screen images simulated. Actual appearances may<span>&nbsp;</span>vary.
+          <%@ include view='PVIEW25' %>
+        </td>
+      </tr>
+    </table>
+    <!-- Email Footer : END --> 
+    <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]--> 
+  </div>
+</center>
+</body>
+</html>

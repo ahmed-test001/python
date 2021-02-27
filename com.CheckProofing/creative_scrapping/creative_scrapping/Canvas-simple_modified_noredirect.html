@@ -1,0 +1,660 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- A little more standards friendly. utf-8 works for most cases -->
+<meta name="viewport" content="width=device-width" />
+<!-- Forcing initial-scale shouldn't be necessary -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- Use the latest (edge) version of IE rendering engine -->
+<meta name="x-apple-disable-message-reformatting" />
+<!-- Disable auto-scale in iOS 10 Mail entirely -->
+<title>SAMSUNG</title>
+<!-- The title tag shows in email notifications, like Android 4.4. -->
+
+<!-- CSS Reset -->
+<style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+
+
+	
+html, body {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+
+/* What it does: Stops email clients resizing small text. */
+* {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/* What it does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table, td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin: 0 auto !important;
+}
+table table table {
+    table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+    -ms-interpolation-mode: bicubic;
+}
+/* Affects Address universal block, stopping blue linking*/
+.addressColor {
+    color: #6d6e71 !important;
+}
+/* Prevents Links from Changing Color after Clicking. Mostly for Outlook*/
+a:visited {
+    color: inherit !important;
+}
+span.msoHyperlink {
+    mso-style-priority: 99;
+    color: inherit;
+}
+span.msoHyperlinkFollowed {
+    mso-style-priority: 99;
+    color: inherit;
+}
+/* What it does: A work-around for email clients meddling in triggered links. */
+
+.x-gmail-data-detectors,    /* Gmail */ .x-gmail-data-detectors *, .aBn {
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+/*Fix for Outlook.com and 365 gaps*/
+div, button {
+    vertical-align: bottom;
+}
+th {
+    font-weight: normal;
+}
+.fluid {
+    max-width: 100% !important;
+    height: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+	
+/*button hover primary*/
+
+.btn-hover:hover {background:#9a716e !important; background-color:#9a716e !important; color:#FFFFFF !important; -webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; -ms-transition: All 0.5s ease; transition: All 0.5s ease; }
+	
+.bottom-round {
+	border-bottom-left-radius: 30px;	
+	border-bottom-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;	
+	-webkit-border-bottom-right-radius: 30px;
+	-moz-border-bottom-left-radius: 30px;	
+	-moz-border-bottom-right-radius: 30px;
+	-ms-border-bottom-left-radius: 30px;	
+	-ms-border-bottom-right-radius: 30px;	
+}
+
+@media screen and (max-width: 480px) {
+.email-container {
+    width: 100% !important;
+}
+div.mobileBorder {
+    border-left: #f4f4f4 solid 10px !important;
+    border-right: #f4f4f4 solid 10px !important;
+}
+/* What it does: Forces table cells into full-width rows. */
+.stack-column-center {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+}
+.stack-column-91 {
+    display: block !important;
+    width: 91%!important;
+    max-width: 91% !important;
+    text-align: center !important;
+}
+.center-on-narrow {
+    text-align: center !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+table.center-on-narrow {
+    display: inline-block !important;
+}
+.rw-pLR10 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.pdB10 {
+    padding-bottom: 10px !important;
+}
+.pdLR0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+td.subCopy, a.subCopy {
+    font-size: 3.3vw !important;
+    line-height: 5vw !important;
+}
+td.subCopy {
+    padding: 0 25px !important;
+}
+td.hr.subCopy, a.hr.subCopy {
+    font-size: 4.16vw !important;
+    line-height: 6.25vw !important;
+}
+td.hr.subCopy {
+    padding: 0 25px !important;
+}
+td.title.pricing {
+    font-size: 3.75vw !important;
+    line-height: 5vw !important;
+    padding: 5px !important;
+}
+td.pricing {
+    font-size: 3.541vw !important;
+    line-height: 5vw !important;
+    padding: 5px !important;
+}
+td.subTitle.pricing, td.devices.pricing {
+    font-size: 2.916vw !important;
+    line-height: 5vw !important;
+    padding: 5px !important;
+}
+/* Add custom style classes for one-off elements */
+td.custom1, a.custom1 {
+    font-size: 3.12vw !important;
+    line-height: 4.58vw !important;
+}
+td.custom2, a.custom2 {
+    font-size: 3.33vw !important;
+    line-height: 4.16vw !important;
+}
+img.custom3 {
+    width: 14.16vw !important;
+}
+img.custom4 {
+    width: 16.45vw !important;
+}
+img.custom5 {
+    width: 40.83vw !important;
+}
+img.custom7 {
+    width: 48.95vw !important;
+}
+/* For EPP/Gray banner at top of email : BEGIN */
+.custom8 {
+    font-size: 4.583vw !important;
+    line-height: 5.83vw !important;
+}
+	
+	
+	
+	
+	
+/* For EPP/Gray banner at top of email : BEGIN */
+}
+	
+
+	
+</style>
+<style>
+/* What it does: A work-around for iOS meddling in triggered links. Gmail will strip this. */
+*[x-apple-data-detectors]  /* iOS */ {
+    color:inherit !important;
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+</style>
+
+</head>
+<body width="100%" bgcolor="#f4f4f4" style="margin:0; padding:0; width:100% !important;">
+<center style="width:100%; background:#f4f4f4;">
+  <!-- Visually Hidden Preheader Text : BEGIN -->
+  <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family:sans-serif;"> <%= preheader %> - <%= firstModuleAlt %>
+    <!--This is for the five Pixel Tracking -->
+    <img src="http://samsungelectronicsamericainc.demdex.net/event?d_cid_ic=my_samus_crm%01<%=recipient.BPNumber%>%011&d_cid_ic=AdobeCampaignID%01<%=recipient.BPNumber%>%011&d_sid=14954485" width="0" height="0" />
+    <%@ include view='PVIEW24' %>
+  </div>
+  <!-- Visually Hidden Preheader Text : END -->
+  <div style="max-width:480px; margin:auto;" class="mobileBorder">
+    <!--[if mso]>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="480" align="center">
+            <tr>
+            <td>
+            <![endif]-->
+    <!-- PreHeader : BEGIN -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width:480px;">
+      <tr>
+        <td style="padding:20px 0 20px 0px; text-align:center;font:11px Arial, Helvetica, sans-serif; mso-line-height-rule:exactly; line-height:14px; color:#727272;"> <a _label="Preheader" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank">Pre-order now. Access up to $200 instant credit, which includes your $50 exclusive credit.</a> </td>
+      </tr>
+    </table>
+    <!-- PreHeader : END -->
+
+    <!-- Email Body : BEGIN -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="background-color:#f4f4f4; padding:0;">
+      <tr>
+        <td align="left" valign="top" bgcolor="#f4f4f4" style="background-color:#f4f4f4; color:#000001;">
+          <!-- Logo, Flush : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td> <a _label="Samsung logo" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/DV_Logo_190801_01.png" width="480" alt="SAMSUNG" border="0" style="display:block; width:100%; max-width:480px;" /></a> </td>
+            </tr>
+          </table>
+          <!-- Logo, Flush : END -->
+            <!-- Banner : BEGIN -->
+            
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#ffffff;" width="100%" bgcolor="#ffffff">
+                <tr>
+                  <td valign="top" style="padding: 20px 20px; background-color: #ffffff;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 480px;">
+                      <tr>
+                        <td valign="top" style="font-family: Arial, sans-serif; mso-line-height-rule: exactly; text-align: center; background-color: #ffffff;padding-bottom: 5px;" class="center-on-narrow">
+                          <h1 style="font-size: 22px; line-height: 28px; margin: 0 0 10px 0; font-weight: bold;" class="custom8"><a _label="Banner_Headline" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color: #000001; text-decoration: none;" class="custom8">Meet the latest and greatest Galaxy<span>&nbsp;</span></a></h1>
+                          <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 20px; margin: 0; padding-bottom: 5px; border-bottom: solid 0px #b3b3b3;" class="subCopy"><a _label="Banner_Subcopy" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color: #9a716e; text-decoration: none;" class="subCopy">
+						<strong>Pre&#8209;order to access up to $200 instant credit, which includes your $50 exclusive credit.** </strong>	  
+						</a></p>
+                        </td>
+                      </tr>
+                      
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            
+              
+            
+              <!-- Banner : END -->
+          <!-- Canvas Hero : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#000001;" width="100%" bgcolor="#000001">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#ffffff; padding:0; background-color:#000001;" bgcolor="#000001"> <a _label="Hero" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color:#ffffff;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_WK32_Canvas_Reserve_PreOrder_T1_200731_01.jpg" width="480" alt="Galaxy Note20 5G | 20 Ultra 5G" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#000001;" width="100%" bgcolor="#000001">
+           
+              <tr>
+                <td align="left" valign="top" style="text-align:center; font:20px Arial, Helvetica, sans-serif; color:#ffffff; padding:0px 25px; mso-line-height-rule:exactly; line-height:30px; background-color:#000001;" bgcolor="#000001" class="hr subCopy"> <a _label="Hero_Text" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color:#ffffff; mso-line-height-rule:exactly; font-size: .85em;  line-height:23px; text-decoration:none;" class="hr subCopy">From $8.99/mo for 36 mos<sup style="line-height:0;">&oplus;</sup> or $323.74 with eligible trade and your members&#8209;only<span>&nbsp;</span>discount.<sup style="line-height:0;">&theta;</sup></a> </td>
+              </tr>
+           
+              
+            
+              
+           
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000001; padding:0;"> <a _label="Hero_CTA" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color:#000001;"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_WK32_Canvas_Reserve_PreOrder_T1_200731_02a.png" width="480" alt="Pre-order now - Click &quot;Pre-order now&quot; to access your instant credit." border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+          <!-- Canvas Hero : END -->
+          <!-- 10px Space : BEGIN -->
+      	  
+			  
+		  <table>
+            <tr>
+              <td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+            </tr>
+          </table>
+			  
+		  
+          <!-- 10px Space : END -->
+          <!-- Trade_In : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000001; padding:0;"> <a _label="Trade_In" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color:#000001;"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_WK32_Canvas_Reserve_PreOrder_T1_200731_06.png" width="480" alt="Great pricing options with trade in" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color: #ffffff;" width="100%" bgcolor="#ffffff">
+<tr>
+  <td>
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color: #9a716e;" width="100%" bgcolor="#9a716e">
+      <tr>
+      <td width="40%" align="center" valign="middle" style="text-align:center; font:18px Arial, Helvetica, sans-serif; color:#ffffff; padding:20px 0; mso-line-height-rule:exactly; line-height:24px; background-color:#000001;" bgcolor="#000001" class="title pricing"><strong>Your<span>&nbsp;</span>Trade<span>&nbsp;</span>In</strong></td>
+      <td align="center" valign="middle" style="background-color:#b39997; width:2.5%;" bgcolor="#ffffff"><span>&nbsp;</span></td>
+      <td width="26.5%" align="center" valign="middle" style="text-align:center; font:14px Arial, Helvetica, sans-serif; color:#ffffff; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#9a716e;" bgcolor="#9a716e" class="subTitle pricing">Galaxy Note20</td>
+      <td width="31%" align="center" valign="middle" style="text-align:center; font:14px Arial, Helvetica, sans-serif; color:#ffffff; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#9a716e;" bgcolor="#9a716e" class="subTitle pricing">Galaxy Note20<span>&nbsp;</span>Ultra</td>
+    </tr>
+  </table>
+  </td>
+</tr>
+<tr>
+  <td>
+    
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px;" width="100%">
+      <tr>
+              <td width="40%" align="center" valign="middle" style="text-align:center; font:14px Arial, Helvetica, sans-serif; color:#000001; padding:20px 0; mso-line-height-rule:exactly; line-height:24px; background-color:#dddddd;" bgcolor="#dddddd" class="devices pricing"><strong>S20 5G series | Note10 series<span>&nbsp;</span>|<span>&nbsp;</span>iPhone<span>&nbsp;</span>11<span>&nbsp;</span>Pro</strong></td>
+              <td align="center" valign="middle" style="background-color:#f2f2f2; width:2.5%;" bgcolor="#f2f2f2"><span>&nbsp;</span></td>
+              <td width="26.5%" align="center" valign="middle" style="text-align:center; font:18px Arial, Helvetica, sans-serif; color:#000001; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#f7f7f7;" bgcolor="#f7f7f7" class="pricing"><strong>$8.99/mo</strong></td>
+              <td width="31%" align="center" valign="middle" style="text-align:center; font:18px Arial, Helvetica, sans-serif; color:#000001; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#f7f7f7;" bgcolor="#f7f7f7" class="pricing"><strong>$16.70/mo</strong></td>
+            </tr>
+            <tr>
+              <td width="40%" align="center" valign="middle" style="text-align:center; font:14px Arial, Helvetica, sans-serif; color:#000001; padding:20px 0; mso-line-height-rule:exactly; line-height:24px; background-color:#dddddd;" bgcolor="#dddddd" class="devices pricing"><strong>S10 | S10+ | Note9<span>&nbsp;</span>|<span>&nbsp;</span>iPhone<span>&nbsp;</span>11</strong></td>
+              <td align="center" valign="middle" style="background-color:#f2f2f2; width:2.5%;" bgcolor="#f2f2f2"><span>&nbsp;</span></td>
+              <td width="26.5%" align="center" valign="middle" style="text-align:center; font:17px Arial, Helvetica, sans-serif; color:#000001; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#f7f7f7;" bgcolor="#f7f7f7" class="pricing"><strong>$11.56/mo</strong></td>
+              <td width="31%" align="center" valign="middle" style="text-align:center; font:17px Arial, Helvetica, sans-serif; color:#000001; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#f7f7f7;" bgcolor="#f7f7f7" class="pricing"><strong>$19.27/mo</strong></td>
+            </tr>
+            <tr>
+              <td width="40%" align="center" valign="middle" style="text-align:center; font:14px Arial, Helvetica, sans-serif; color:#000001; padding:20px 0; mso-line-height-rule:exactly; line-height:24px; background-color:#dddddd;" bgcolor="#dddddd" class="devices pricing"><strong>S9 series<span>&nbsp;</span>|<span>&nbsp;</span>S10e<span>&nbsp;</span>| iPhone<span>&nbsp;</span>X</strong></td>
+              <td align="center" valign="middle" style="background-color:#f2f2f2; width:2.5%;" bgcolor="#f2f2f2"><span>&nbsp;</span></td>
+              <td width="26.5%" align="center" valign="middle" style="text-align:center; font:17px Arial, Helvetica, sans-serif; color:#000001; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#f7f7f7;" bgcolor="#f7f7f7" class="pricing"><strong>$15.42/mo</strong></td>
+              <td width="31%" align="center" valign="middle" style="text-align:center; font:17px Arial, Helvetica, sans-serif; color:#000001; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#f7f7f7;" bgcolor="#f7f7f7" class="pricing"><strong>$23.12/mo</strong></td>
+            </tr>
+            <tr>
+              <td width="40%" align="center" valign="middle" style="text-align:center; font:14px Arial, Helvetica, sans-serif; color:#000001; padding:20px 0; mso-line-height-rule:exactly; line-height:24px; background-color:#dddddd;" bgcolor="#dddddd" class="devices pricing"><strong>Note8<span>&nbsp;</span>|<span>&nbsp;</span>S8 series<span>&nbsp;</span>| iPhone<span>&nbsp;</span>6</strong></td>
+              <td align="center" valign="middle" style="background-color:#f2f2f2; width:2.5%;" bgcolor="#f2f2f2"><span>&nbsp;</span></td>
+              <td width="26.5%" align="center" valign="middle" style="text-align:center; font:17px Arial, Helvetica, sans-serif; color:#000001; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#f7f7f7;" bgcolor="#f7f7f7" class="pricing"><strong>$19.27/mo</strong></td>
+              <td width="31%" align="center" valign="middle" style="text-align:center; font:17px Arial, Helvetica, sans-serif; color:#000001; padding:20px 4px; mso-line-height-rule:exactly; line-height:24px; background-color:#f7f7f7;" bgcolor="#f7f7f7" class="pricing"><strong>$26.98/mo</strong></td>
+            </tr>
+          </table>
+       
+          
+       
+          </td>
+        </tr>
+    </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+			  
+			 
+                      <tr>
+                        <td valign="top" style="font-family: Arial, sans-serif; mso-line-height-rule: exactly; text-align: center; background-color: #ffffff;padding-bottom: 0px;" class="center-on-narrow">
+                          
+                          <p style="font-family: Arial, sans-serif; font-size: 11px; line-height: 13px; margin: 0; padding: 15px 30px; border-bottom: solid 0px #b3b3b3;" class="subCopy"><a _label="Banner_Subcopy" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color: #000000; text-decoration: none;" class="subCopy">
+						Values reflect 36 monthly payments with Samsung Financing&#174; based on trade-in values for 128GB models. Not all eligible trade ins are listed.	  
+						</a></p>
+                        </td>
+						  
+                      </tr>
+                  
+			  
+			 <tr style="max-width:480px; background-color:#ffffff;" bgcolor="#ffffff">
+				<td height="45" style="" width="210">
+					<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto; " >
+						<tr style="max-width:480px;" >								
+							<td class="btn-hover" style="border-radius: 180px; -webkit-border-radius: 180px; -moz-border-radius: 180px; -ms-border-radius: 180px; border:1px solid #ffffff; padding: 12px 35px 12px 35px;" bgcolor="#000000"><a href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="font-size:15px; vertical-align:middle; text-decoration: none; display:inline-block; display:block; color: #ffffff; font-family: arial, helvetica, sans-serif; text-decoration: none; font-weight:bold;"><span style="font-size:15px; vertical-align:middle; text-decoration: none; display:inline-block; display:block; color: #ffffff; font-family: arial, helvetica, sans-serif; text-decoration: none; font-weight:bold;">Pre-order&nbsp;now</span></a>
+							</td>								
+						</tr>		
+					</table>
+				</td>
+			</tr> 
+			  
+			<tr style="max-width:480px; background-color:#ffffff; " >
+				<td height="35" class="bottom-round" >
+				</td>
+			</tr>  
+			  
+          </table>
+	  
+	  
+          <!-- Trade_In : END -->
+	  
+	  	<table>
+            <tr>
+              <td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+            </tr>
+          </table>
+	  
+	  
+	  
+	   <!-- Ecosystem : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000001; padding:0;"> <a _label="Ecosystem" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color:#000001;"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_WK32_Canvas_Reserve_PreOrder_T1_200731_05a.png" width="480" alt="Complete your Galaxy Ecosystem with instant credit - Make the most of your instant credit of up to $200 when you pre-order.** - Use your credit to buy devices like Galaxy Buds Live, Galaxy Watch3, PowerA MOGA XP5-X+ Controller and more. + Buy Galaxy Buds Live and Galaxy Watch3 together and save an additional 10% with Galaxy Note20 5G purchase.&#8710; - Pre-order now - Click &quot;Pre-order now&quot; to access your instant credit." border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+          <!-- Ecosystem : END -->
+	  
+	  <table>
+            <tr>
+              <td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+            </tr>
+          </table>
+	  
+	  
+	  	<!-- The_Power : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000001; padding:0;"> <a _label="The_Power" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color:#000001;"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_WK32_Canvas_Reserve_PreOrder_T1_200731_03.png" width="480" alt="This is the power phone that forever changes how you work and play" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#ffffff;" width="100%" bgcolor="#ffffff">
+            <tr>
+              <td align="left" valign="top" style="text-align:center; font:16px Arial, Helvetica, sans-serif; color:#000001; padding:0px 20px 20px; mso-line-height-rule:exactly; line-height:24px; background-color:#ffffff;" bgcolor="#ffffff" class="subCopy"> <a _label="The_Power_Text" href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="color:#000001; mso-line-height-rule:exactly; line-height:24px; text-decoration:none;" class="subCopy">It's the ultimate gaming experience that goes where&nbsp;you&nbsp;go. <br>It's a director grade 8K video camera. <br>It's a multitasking computer suite. <br>It's anything but your average smartphone. 
+</a> </td>
+            </tr>
+			  
+			  
+		
+                  
+			  
+			 <tr style="max-width:480px; background-color:#ffffff;" bgcolor="#ffffff">
+				<td height="45" style="" width="210">
+					<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto; " >
+						<tr style="max-width:480px;" >								
+							<td class="btn-hover" style="border-radius: 180px; -webkit-border-radius: 180px; -moz-border-radius: 180px; -ms-border-radius: 180px; border:1px solid #ffffff; padding: 12px 35px 12px 35px;" bgcolor="#000000"><a href="https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310" target="_blank" style="font-size:15px; vertical-align:middle; text-decoration: none; display:inline-block; display:block; color: #ffffff; font-family: arial, helvetica, sans-serif; text-decoration: none; font-weight:bold;"><span style="font-size:15px; vertical-align:middle; text-decoration: none; display:inline-block; display:block; color: #ffffff; font-family: arial, helvetica, sans-serif; text-decoration: none; font-weight:bold;">Pre-order&nbsp;now</span></a>
+							</td>								
+						</tr>		
+					</table>
+				</td>
+			</tr>   
+			  
+			 
+			  
+			  
+          </table>
+          
+          <!-- The_Power : END -->
+	  
+	  
+	  
+	  <tr style="max-width:480px; background-color:#ffffff; " >
+				<td height="35" class="bottom-round" >
+				</td>
+			</tr>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+          <!-- 10px Space : BEGIN --><table>
+            <tr>
+              <td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+            </tr>
+     </table>
+          <!-- 10px Space : END -->
+          <!-- Rewards_Image : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_tc_200211_01.png" width="480" height="10" alt="" border="0" style="display:block; width: 100%; max-width:480px;" /> </td>
+            </tr>
+          </table>
+          <!-- Pay Over Time, Free Shipping, and Rewards - Three Columns : BEGIN -->
+          <table role="presentation" style="max-width:480px;" cellspacing="0" cellpadding="0" border="0" width="100%" class="email-container">
+            <tr>
+              <td align="center" valign="top" bgcolor="#ffffff">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#ffffff;" width="100%" bgcolor="#ffffff">
+                  <tr>
+                    <!-- Pay Over Time : BEGIN -->
+                    <th width="33%" align="center" class="stack-column-91 rw-pLR10" valign="top" style="font-weight: normal; padding:5px; font-family: Arial, sans-serif; mso-height-rule: exactly; text-align: center; color: #000001;"> <a href="http://www.samsung.com/us/financing/?marsLinkCategory=general:general&<%= tracking %>" _label="Pay_Over_Time_Image"><img src="http://t.info.samsungusa.com/res/samsung/M8_Template_PayOverTime_180716_01.png" width="79" alt="" border="0" style="display:block; margin:auto;" class="fluid custom4" /></a>
+                      <h3 style="font-size: 18px; line-height: 20px; margin: 15px 15px 0; font-weight: bold; color:#9a716e;" class="center-on-narrow custom1"><a href="http://www.samsung.com/us/financing/?marsLinkCategory=general:general&<%= tracking %>" _label="Pay_Over_Time_Title" target="_blank" style="color:#9a716e; text-decoration:none;" class="custom1">PAY<br/>
+                        <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>LATER.<sup style="mso-line-height-rule:exactly; line-height:0; font-size:10px; vertical-align:5px; font-weight: normal;"><!--[if (gte mso 9) | (IE 7)]><span style="font-size:12px; vertical-align:2px;"><![endif]-->&oplus;<!--[if (gte mso 9) | (IE 7)]></span><![endif]--></sup></a> </h3>
+                      <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 20px; margin:10px 15px 0;" class="center-on-narrow custom2"><a href="http://www.samsung.com/us/financing/?marsLinkCategory=general:general&<%= tracking %>" _label="Pay_Over_Time_Copy" target="_blank" style="color:#000001; text-decoration:none;" class="custom2">Convenient financing available with $0<span>&nbsp;</span>down.*</a> </p>
+                    </th>
+                    <!-- Pay Over Time : END -->
+                    <!-- Free Shipping : BEGIN -->
+                    <th width="33%" align="center" class="stack-column-91 rw-pLR10" valign="top" style="font-weight: normal; padding:5px; font-family: Arial, sans-serif; mso-height-rule: exactly; text-align: center; color: #000001;"> <a href="https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup" _label="Free_Returns_Image" target="_blank" style="color:#000001; text-decoration:none;"><img src="http://t.info.samsungusa.com/res/samsung/M8_Template_FreeShipping_180716_01.png" width="79" alt="" border="0" style="display:block; margin:auto;" class="fluid custom4" /></a>
+                      <h3 style="font-size: 18px; line-height: 20px; margin: 15px 15px 0; font-weight: bold; color:#9a716e;" class="center-on-narrow custom1"><a href="https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup" _label="Free_Returns_Title" target="_blank" style="color:#9a716e; text-decoration:none;" class="custom1">FREE<br/>
+                        SHIPPING.</a> </h3>
+                      <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 20px; margin:10px 15px 0;" class="center-on-narrow custom1"><a href="https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup" _label="Free_Returns_Copy" target="_blank" style="color:#000001; text-decoration:none;" class="custom2">Get your favorite items delivered right to your<span>&nbsp;</span>doorstep.</a> </p>
+                    </th>
+                    <!-- Free Shipping : END -->
+                    <!-- Get Rewarded : BEGIN -->
+                    <th width="33%" align="center" class="stack-column-91 rw-pLR10" valign="top" style="font-weight: normal; padding:5px; font-family: Arial, sans-serif; mso-height-rule: exactly; text-align: center; color: #000001;"> <a href="https://www.samsung.com/us/rewards?marsLinkCategory=general:general<%= tracking %>" _label="Get_Rewarded_Image" target="_blank" style="color:#000001; text-decoration:none;"><img src="http://t.info.samsungusa.com/res/samsung/M8_Template_Rrewards_190801_01.png" width="79" alt="" border="0" style="display:block; margin:auto;" class="fluid custom4" /></a>
+                      <h3 style="font-size: 18px; line-height: 20px; margin: 15px 15px 0; font-weight: bold; color:#9a716e;" class="center-on-narrow custom1"><a href="https://www.samsung.com/us/rewards?marsLinkCategory=general:general<%= tracking %>" _label="Get_Rewarded_Title" target="_blank" style="color:#9a716e; text-decoration:none;" class="custom1">GET<br/>
+                        REWARDED.</a> </h3>
+                      <p style="font-family: Arial, sans-serif; font-size: 16px; line-height: 20px; margin:10px 15px 0;" class="center-on-narrow custom2"><a href="https://www.samsung.com/us/rewards?marsLinkCategory=general:general<%= tracking %>" _label="Get_Rewarded_Copy" target="_blank" style="color:#000001; text-decoration:none;" class="custom2">Earn Samsung points on every<span>&nbsp;</span>purchase.</a> </p>
+                    </th>
+                    <!-- Get Rewarded : END -->
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!-- Pay Over Time, Free Shipping, and Rewards - Three Columns : END -->
+          <!-- Rewards_Image_CTA : END -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_bc_200211_01.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width:480px;" /> </td>
+            </tr>
+          </table>
+          <!-- 10px Space : BEGIN --><table>
+            <tr>
+              <td width="0" height="5" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+            </tr>
+    	 </table>
+          <!-- 10px Space : END -->
+          <!-- Shop_App : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_tc_200211_01.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width:480px;" /> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="center" valign="top" style="text-align:center; background-color:#ffffff; font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;" bgcolor="#ffffff"> <img src="http://t.info.samsungusa.com/res/samsung/M8_Template_Shop_180716_01.png" width="68" alt="Shop" class="fluid custom3" style="display:block; margin:auto;" border="0" /> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" style="background-color:#ffffff; font: 12px Arial, Helvetica, sans-serif; color:#000001; padding:0 0 0 0;" bgcolor="#ffffff"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_200211_04.jpg" width="480" alt="Get the Shop Samsung App" border="0" style="display:block; width: 100%; max-width:480px;" /> </td>
+            </tr>
+          </table>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#ffffff;" width="100%" bgcolor="#ffffff">
+            <tr>
+              <th width="50%" align="right" valign="top" class="stack-column-center pdLR0" style="padding: 0; text-align: right"> <a _label="Download_App_Google" href="https://play.google.com/store/apps/details?id=com.samsung.ecomm&referrer=%26utm_source%3Ds_com%26utm_medium%3Demail%26utm_campaign%3DMKM_MID%3D<%= delivery.internalName %>%26CID%3D<%= targetData.CID %><%= targetData.segmentCode %>%26marsLinkCategory%3Dapps:apps%26MKM_RID%3D<%= recipient.BPNumber %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_05.jpg" width="196" alt="GET IT ON Google Play" class="fluid custom5" border="0" /></a> </th>
+              <th width="50%" align="left" valign="top" class="stack-column-center pdLR0" style="padding: 0; text-align: left"> <a _label="Download_App_Apple" href="https://itunes.apple.com/app/apple-store/id1274679179?pt=118714161&ct=s_com_email_footer_cid_<%= targetData.CID %><%= targetData.segmentCode %>&mt=8&marsLinkCategory=apps:apps" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_06.jpg" width="196" alt="Download on the App Store" class="fluid custom5" border="0" /></a> </th>
+            </tr>
+          </table>
+          <!-- Shop_App : END -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top"> <img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_bc_200211_01.png" width="480" alt="" border="0" style="display:block; width: 100%; max-width:480px;" /> </td>
+            </tr>
+          </table>
+          <!-- 10px Space : BEGIN -->
+	  
+	 	 <table>
+            <tr>
+              <td width="0" height="15" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+            </tr>
+          </table>
+	  
+	  
+	  
+          <!-- 10px Space : END -->
+          <!-- Grey Navigation Links : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <th width="50%" align="right" valign="top" class="stack-column-center pdLR0 pdB10" style="padding: 0 5px 0 0; text-align: right"> <a _label="Footer_Free_Shipping_Details" href="https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_07.png" width="225" alt="FREE SHIPPING DETAILS" class="fluid custom7" border="0" /></a> </th>
+              <th width="50%" align="left" valign="top" class="stack-column-center pdLR0" style="padding: 0 0 0 5px; text-align: left"> <a _label="Footer_Mobile" href="http://www.samsung.com/us/mobile/phones/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_08.png" width="225" alt="MOBILE" class="fluid custom7" border="0" /></a> </th>
+            </tr>
+          </table>
+          <!-- Space : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font: 9px Arial, Helvetica, sans-serif; color:#ffffff; padding:0 0 0 0;">&nbsp; </td>
+            </tr>
+          </table>
+          <!-- Space : END -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <th width="50%" align="right" valign="top" class="stack-column-center pdLR0 pdB10" style="padding: 0 5px 0 0; text-align: right"> <a _label="Footer_TV_Audio" href="http://www.samsung.com/us/televisions-home-theater/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_09.png" width="225" alt="TV &amp; AUDIO" class="fluid custom7 custom7" border="0" /></a> </th>
+              <th width="50%" align="left" valign="top" class="stack-column-center pdLR0" style="padding: 0 0 0 5px; text-align: left"> <a _label="Footer_Computing" href="http://www.samsung.com/us/computing/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_10.png" width="225" alt="COMPUTING" class="fluid custom7" border="0" /></a> </th>
+            </tr>
+          </table>
+          <!-- Space : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <td align="left" valign="top" style="font: 9px Arial, Helvetica, sans-serif; color:#ffffff; padding:0 0 0 0;">&nbsp; </td>
+            </tr>
+          </table>
+          <!-- Space : END -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%" bgcolor="#f4f4f4">
+            <tr>
+              <th width="50%" align="right" valign="top" class="stack-column-center pdLR0 pdB10" style="padding: 0 5px 0 0; text-align: right"> <a _label="Footer_Appliances" href="http://www.samsung.com/us/home-appliances/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_11.png" width="225" alt="APPLIANCES" class="fluid custom7" border="0" /></a> </th>
+              <th width="50%" align="left" valign="top" class="stack-column-center pdLR0" style="padding: 0 0 0 5px; text-align: left"> <a _label="Footer_WeeklyOffers" href="http://www.samsung.com/us/shop/all-deals/?marsLinkCategory=general:general<%= tracking %>" target="_blank" style="color:#000001;"><img src="http://t.info.samsungusa.com/res/samsung/M8_eComm_190801_12.png" width="225" alt="WEEKLY OFFERS" class="fluid custom7" border="0" /></a> </th>
+            </tr>
+          </table>
+          <!-- Grey Navigation Links : END -->
+        </td>
+      </tr>
+    </table>
+    <!-- Email Body : END -->
+				
+	 <table>
+         <tr>
+             <td width="0" height="15" style="line-height: 0px; font-size: 0px; webkit-text-resizing:none;">&nbsp;</td>
+         </tr>
+     </table>
+	  
+				
+    <!-- Social White Background Footers Begin -->
+    <%@ include view='PVIEW489' %>
+    <!-- Social White Background Footers End -->
+    <!-- Email Footer : BEGIN -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width:480px;">
+      <tr>
+        <td style="padding:0px 10px 40px 0px;width:100%;font-size:12px; font-family:Arial, Helvetica, sans-serif; mso-height-rule:exactly; line-height:16px; text-align:left; color:#727272;">
+        **18+ &amp; 50 US/DC only. By 8&#65279;/&#65279;20&#65279;/&#65279;20 ("Purchase Period"), pre&#8209;order and purchase a Samsung Galaxy N20 5G or N20 5G Ultra with Samsung Financing, Carrier specific financing (when available as a payment method) or outright purchase at full retail price ("Qualifying Purchase"), and receive a $150 Samsung Credit for with a N20 5G Purchase ($100 Gift for Pre&#8209;order Promotion & Additional $50 for reservation gift), or a $200 Samsung Credit with a N20 5G Ultra Purchase ($150 Gift for Pre&#8209;order Promotion & Additional $50 for reservation gift) ("Gift"). Reservation Gift applicable to customers that reserved the latest Galaxy in the reserve period from 7&#65279;/&#65279;22&#65279;/&#65279;20&#65279;20 &ndash; 8&#65279;/&#65279;5&#65279;/&#65279;20&#65279;20 and pre&#8209;order and purchase the latest Samsung Galaxy device on an installment plan, 2-year contract plan, lease or outright purchase at full retail price ("Qualifying Purchase"). Samsung Credits are valid only at <a _label="Legal(1)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">www.Samsung.com</a> or in the App for use towards an eligible purchase including wearables, tablets, PCs and select accessories and valid through 11&#65279;/&#65279;27&#65279;/&#65279;20. Gifts subject to availability and are non-transferrable. Limit 1 Gift per Qualifying Purchase. Gifts only available while supplies last. When making a Qualifying Purchase on <a _label="Legal(2)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Samsung.com</a> or the App, you must either (i) use the Gift at check-out or (ii) not use any of the Gift at check-out and receive Gift by email apprx 15 days after the delivery of your Qualifying Purchase; any value not used is lost. Additional restrictions apply. Void where prohibited or restricted by law. Offer subject to additional terms <a _label="Legal(3)" href="https://www.samsung.com/us/trade-in/terms-and-conditions/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">here</a>. Samsung reserves the right to modify or discontinue offer at any time by posting notice on the app or<span>&nbsp;</span>website.<br />
+        <br />
+        <sup style="line-height:0;">&theta;</sup>For a limited time only, on <a _label="Legal(4)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Samsung.com</a>/Shop Samsung App, pre&#8209;order or purchase a new qualifying Galaxy device ("Qualifying Purchase"), send in your qualifying trade-in device to Samsung through the Samsung Trade-In Program, and if Samsung determines your trade-in device meets all eligibility requirements, you will receive a trade-in credit specific to your qualifying trade-in device to apply toward your Qualifying Purchase. Device models that currently qualify for trade-in and trade-in credit amounts associated with those models are available on <a _label="Legal(5)" href="https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Samsung.com</a> and the Shop Samsung App; eligible models and amounts may change at Samsung's sole discretion. To be eligible for trade-in, your qualifying device must meet all Trade-In Program eligibility requirements, which include, but are not limited to, that the device powers on, holds a charge, and does not power off unexpectedly; has a functioning display; has no breaks or cracks in the screen (unless a cracked screen offer applies); has no breaks or cracks in the case; has no liquid damage (whether visible or not); has no other defects that go beyond normal wear and tear; is not on a black list; has a verified FCC ID; has been reset to factory settings; has all personal information removed; has all software locks disabled; and is owned by you (leased devices are not eligible). Anticipated trade-in value will be applied as a credit at time of purchase, but, if you do not send in your trade-in device within 15 days of receipt of your Qualifying Purchase, you will be charged back for the trade-in credit applied to your purchase, or if you send in your trade-in device within 15 days of receipt of your Qualifying Purchase but Samsung determines your device does not meet all eligibility requirements, you will be charged back for the trade-in credit applied to your purchase minus $25. Participation in this program does not excuse you from contracts with your carrier or retailer (or any related payments or fees) for the device that was traded in. Limit 1 trade-in per Qualifying Purchase. Samsung reserves the right to modify or discontinue this offer at any time. The Trade-In Program cannot be combined with any other Samsung, carrier or retailer promotions, discounts, or offers unless specifically provided for in the terms and conditions of such offers. Additional terms, including terms that govern the resolution of disputes, apply. <a _label="Legal(6)" href="https://www.samsung.com/us/trade-in/terms-and-conditions/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">Click here</a> to learn<span>&nbsp;</span>more.<br />
+          <br />
+          <sup style="line-height:0;">&#8710;</sup>18+ &amp; 50 US/DC/PR/USVI only. Pre-order any Galaxy Note 20 device and purchase Galaxy Buds Live and Galaxy Watch 3 from 8&#65279;/&#65279;5&#65279;/&#65279;20&#65279;20 &ndash; 8&#65279;/&#65279;23&#65279;/&#65279;20&#65279;20 on an installment plan, 2-year contract plan, lease or outright purchase at full retail price ("Qualifying Purchase") and receive a 10% off Galaxy Buds Live and Galaxy Watch 3. Only available on purchases made on Samsung.com and all products must be purchased on the same transaction. Only available while supplies last. Offer subject to additional terms <a _label="Legal(7)" href="https://www.samsung.com/us/trade-in/terms-and-conditions/?marsLinkCategory=general:general&<%= tracking %>" style="text-decoration: none; color: #727272;">here</a>. Samsung reserves the right to modify or discontinue offer at any time by posting notice on the app or website.<br />
+          <br />
+          <!-- Oplus APR Legal -->
+          <%@ include view='PVIEW249' %>
+          <!-- End Oplus APR Legal -->
+          <%@ include view='PVIEW27' %>
+          Samsung Electronics America, Inc. Samsung, Galaxy, Galaxy Note, Galaxy Buds, Galaxy S and Galaxy Watch are registered trademarks of Samsung Electronics Co., Ltd. Use only in accordance with law. Other company and product names mentioned may be trademarks of their respective owners. Screen images simulated. Actual appearances may<span>&nbsp;</span>vary.
+          <%@ include view='PVIEW25' %>
+        </td>
+      </tr>
+    </table>
+    <!-- Email Footer : END -->
+    <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+  </div>
+</center>
+</body>
+</html>

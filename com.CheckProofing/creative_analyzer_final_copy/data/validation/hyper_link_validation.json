@@ -1,0 +1,53 @@
+{
+  "query_params": {
+    "utm_source": "",
+    "utm_medium": "",
+    "utm_campaign": "",
+    "MKM_RID": "",
+    "MKM_MID": "",
+    "cid": "",
+    "bpid": ""
+  },
+  "Reserve_Propensity-S1":[
+    {
+      "label": "",
+      "inner_text": "Bundle a soundbar with your recent TV purchase for the perfect home theater.",
+      "href": "https://www.samsung.com/us/shop/sound-bars/?category=soundbar&sku_id=PANDA&promoCode=5AKE6JXT68&CID=eml-he-tvv-1020-3133-&marsLinkCategory=general:general&MKM_RID=0245128533&MKM_MID=FCP_750637944_PDM170387&CID=eml-he-tvv-1020-3133-Generic"
+    },
+    {
+      "label": "Free_Ship_Headline",
+      "inner_text": "Free shipping and returns onall orders.",
+      "href": "https://www.samsung.com/us/shop/sound-bars/?category=soundbar&sku_id=PANDA&promoCode=5AKE6JXT68&CID=eml-he-tvv-1020-3133-&marsLinkCategory=general:general&MKM_RID=0245128533&MKM_MID=FCP_750637944_PDM170387&CID=eml-he-tvv-1020-3133-Generic"
+    },
+    {
+      "label": "Samsung logo",
+      "inner_text": "",
+      "href": "https://www.samsung.com/us/?marsLinkCategory=general:general&MKM_RID=0245128533&MKM_MID=FCP_750637944_PDM170387&CID=eml-he-tvv-1020-3133-Generic"
+    },
+    {
+      "label": "Hero_Headline_1",
+      "inner_text": "You've bought the TV. Now bundle and save.",
+      "href": "https://www.samsung.com/us/shop/sound-bars/?category=soundbar&sku_id=PANDA&promoCode=5AKE6JXT68&CID=eml-he-tvv-1020-3133-&marsLinkCategory=general:general&MKM_RID=0245128533&MKM_MID=FCP_750637944_PDM170387&CID=eml-he-tvv-1020-3133-Generic"
+    },
+    {
+      "label": "Hero_Subcopy_1",
+      "inner_text": "Save up to $300 on qualifying soundbars.",
+      "href": "https://www.samsung.com/us/shop/sound-bars/?category=soundbar&sku_id=PANDA&promoCode=5AKE6JXT68&CID=eml-he-tvv-1020-3133-&marsLinkCategory=general:general&MKM_RID=0245128533&MKM_MID=FCP_750637944_PDM170387&CID=eml-he-tvv-1020-3133-Generic"
+    },
+    {
+      "label": "Hero_Image_1",
+      "inner_text": "",
+      "href": "https://www.samsung.com/us/shop/sound-bars/?category=soundbar&sku_id=PANDA&promoCode=5AKE6JXT68&CID=eml-he-tvv-1020-3133-&marsLinkCategory=general:general&MKM_RID=0245128533&MKM_MID=FCP_750637944_PDM170387&CID=eml-he-tvv-1020-3133-Generic"
+    },
+    {
+      "label": "Hero_Subcopy_2_1",
+      "inner_text": "",
+      "href": "https://www.samsung.com/us/shop/sound-bars/?category=soundbar&sku_id=PANDA&promoCode=5AKE6JXT68&CID=eml-he-tvv-1020-3133-&marsLinkCategory=general:general&MKM_RID=0245128533&MKM_MID=FCP_750637944_PDM170387&CID=eml-he-tvv-1020-3133-Generic"
+    },
+    {
+      "label": "Hero_CTA_1",
+      "inner_text": "",
+      "href": "https://www.samsung.com/us/shop/sound-bars/?category=soundbar&sku_id=PANDA&promoCode=5AKE6JXT68&CID=eml-he-tvv-1020-3133-&marsLinkCategory=general:general&MKM_RID=0245128533&MKM_MID=FCP_750637944_PDM170387&CID=eml-he-tvv-1020-3133-Generic"
+    }
+  ]
+}

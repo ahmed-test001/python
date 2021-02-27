@@ -1,0 +1,1404 @@
+{
+    "alerts": [
+        {
+            "inner_text": "Pre-order now. Access up to $200 instant credit, which includes your $50 exclusive credit.",
+            "label": "Preheader",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "",
+            "label": "Samsung logo",
+            "title": null,
+            "href": "https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "Meet the latest and greatest Galaxy",
+            "label": "Banner_Headline",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": [
+                "custom8"
+            ],
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "Pre\u2011order to access up to $200 instant credit, which includes your $50 exclusive credit.**",
+            "label": "Banner_Subcopy",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": [
+                "subCopy"
+            ],
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "",
+            "label": "Hero",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "From $8.99/mo for 36 mos\u2295 or $323.74 with eligible trade and your members\u2011only\u00a0discount.\u03b8",
+            "label": "Hero_Text",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": [
+                "hr",
+                "subCopy"
+            ],
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "",
+            "label": "Hero_CTA",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "",
+            "label": "Trade_In",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "Values reflect 36 monthly payments with Samsung Financing\u00ae based on trade-in values for 128GB models. Not all eligible trade ins are listed.",
+            "label": "Banner_Subcopy",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": [
+                "subCopy"
+            ],
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "Pre-order\u00a0now",
+            "label": null,
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "",
+            "label": "Ecosystem",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "",
+            "label": "The_Power",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "It's the ultimate gaming experience that goes where\u00a0you\u00a0go. It's a director grade 8K video camera. It's a multitasking computer suite. It's anything but your average smartphone.",
+            "label": "The_Power_Text",
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": [
+                "subCopy"
+            ],
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "Pre-order\u00a0now",
+            "label": null,
+            "title": null,
+            "href": "https://www.samsung.com/us/smartphones/galaxy-note20-5g/buy/?offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/smartphones/galaxy-note20-5g/buy/",
+            "params": "",
+            "query": "offerCID=preorder&promoCode=LAMHSAWSG8&skipCarrier=tmobile&tradeIn=0dd35087-731f-4ee9-a91e-9f9e5e1bd501&modelCode&tiCondition&utm_source=samsung&utm_medium=email&utm_campaign=n20_po_public_reserve_generic&marsLinkCategory=mphone:mphone&MKM_RID=0160173310&MKM_MID=FCP_445573082_PDM153594&cid=eml-mb-cph-820-2964-A_250&bpid=0160173310",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": [
+                "preorder"
+            ],
+            "promoCode": [
+                "LAMHSAWSG8"
+            ],
+            "skipCarrier": [
+                "tmobile"
+            ],
+            "tradeIn": [
+                "0dd35087-731f-4ee9-a91e-9f9e5e1bd501"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "n20_po_public_reserve_generic"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0160173310"
+            ],
+            "MKM_MID": [
+                "FCP_445573082_PDM153594"
+            ],
+            "cid": [
+                "eml-mb-cph-820-2964-A_250"
+            ],
+            "bpid": [
+                "0160173310"
+            ]
+        },
+        {
+            "inner_text": "",
+            "label": "Pay_Over_Time_Image",
+            "title": null,
+            "href": "http://www.samsung.com/us/financing/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": null,
+            "scheme": "http",
+            "netloc": "www.samsung.com",
+            "path": "/us/financing/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "PAY\n\u00a0\u00a0\u00a0LATER.\u2295",
+            "label": "Pay_Over_Time_Title",
+            "title": null,
+            "href": "http://www.samsung.com/us/financing/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": [
+                "custom1"
+            ],
+            "scheme": "http",
+            "netloc": "www.samsung.com",
+            "path": "/us/financing/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "Convenient financing available with $0\u00a0down.*",
+            "label": "Pay_Over_Time_Copy",
+            "title": null,
+            "href": "http://www.samsung.com/us/financing/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": [
+                "custom2"
+            ],
+            "scheme": "http",
+            "netloc": "www.samsung.com",
+            "path": "/us/financing/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Free_Returns_Image",
+            "title": null,
+            "href": "https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/support/account/order/",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "/order-lookup",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "FREE\nSHIPPING.",
+            "label": "Free_Returns_Title",
+            "title": null,
+            "href": "https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup",
+            "class": [
+                "custom1"
+            ],
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/support/account/order/",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "/order-lookup",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "Get your favorite items delivered right to your\u00a0doorstep.",
+            "label": "Free_Returns_Copy",
+            "title": null,
+            "href": "https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup",
+            "class": [
+                "custom2"
+            ],
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/support/account/order/",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "/order-lookup",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Get_Rewarded_Image",
+            "title": null,
+            "href": "https://www.samsung.com/us/rewards?marsLinkCategory=general:general<%= tracking %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/rewards",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>",
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "GET\nREWARDED.",
+            "label": "Get_Rewarded_Title",
+            "title": null,
+            "href": "https://www.samsung.com/us/rewards?marsLinkCategory=general:general<%= tracking %>",
+            "class": [
+                "custom1"
+            ],
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/rewards",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>",
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "Earn Samsung points on every\u00a0purchase.",
+            "label": "Get_Rewarded_Copy",
+            "title": null,
+            "href": "https://www.samsung.com/us/rewards?marsLinkCategory=general:general<%= tracking %>",
+            "class": [
+                "custom2"
+            ],
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/rewards",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>",
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Download_App_Google",
+            "title": null,
+            "href": "https://play.google.com/store/apps/details?id=com.samsung.ecomm&referrer=%26utm_source%3Ds_com%26utm_medium%3Demail%26utm_campaign%3DMKM_MID%3D<%= delivery.internalName %>%26CID%3D<%= targetData.CID %><%= targetData.segmentCode %>%26marsLinkCategory%3Dapps:apps%26MKM_RID%3D<%= recipient.BPNumber %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "play.google.com",
+            "path": "/store/apps/details",
+            "params": "",
+            "query": "id=com.samsung.ecomm&referrer=%26utm_source%3Ds_com%26utm_medium%3Demail%26utm_campaign%3DMKM_MID%3D<%= delivery.internalName %>%26CID%3D<%= targetData.CID %><%= targetData.segmentCode %>%26marsLinkCategory%3Dapps:apps%26MKM_RID%3D<%= recipient.BPNumber %>",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": null,
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Download_App_Apple",
+            "title": null,
+            "href": "https://itunes.apple.com/app/apple-store/id1274679179?pt=118714161&ct=s_com_email_footer_cid_<%= targetData.CID %><%= targetData.segmentCode %>&mt=8&marsLinkCategory=apps:apps",
+            "class": null,
+            "scheme": "https",
+            "netloc": "itunes.apple.com",
+            "path": "/app/apple-store/id1274679179",
+            "params": "",
+            "query": "pt=118714161&ct=s_com_email_footer_cid_<%= targetData.CID %><%= targetData.segmentCode %>&mt=8&marsLinkCategory=apps:apps",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "apps:apps"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Footer_Free_Shipping_Details",
+            "title": null,
+            "href": "https://www.samsung.com/us/support/account/order/?marsLinkCategory=general:general<%= tracking %>#/order-lookup",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/support/account/order/",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "/order-lookup",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Footer_Mobile",
+            "title": null,
+            "href": "http://www.samsung.com/us/mobile/phones/?marsLinkCategory=general:general<%= tracking %>",
+            "class": null,
+            "scheme": "http",
+            "netloc": "www.samsung.com",
+            "path": "/us/mobile/phones/",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>",
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Footer_TV_Audio",
+            "title": null,
+            "href": "http://www.samsung.com/us/televisions-home-theater/?marsLinkCategory=general:general<%= tracking %>",
+            "class": null,
+            "scheme": "http",
+            "netloc": "www.samsung.com",
+            "path": "/us/televisions-home-theater/",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>",
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Footer_Computing",
+            "title": null,
+            "href": "http://www.samsung.com/us/computing/?marsLinkCategory=general:general<%= tracking %>",
+            "class": null,
+            "scheme": "http",
+            "netloc": "www.samsung.com",
+            "path": "/us/computing/",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Footer_Appliances",
+            "title": null,
+            "href": "http://www.samsung.com/us/home-appliances/?marsLinkCategory=general:general<%= tracking %>",
+            "class": null,
+            "scheme": "http",
+            "netloc": "www.samsung.com",
+            "path": "/us/home-appliances/",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "",
+            "label": "Footer_WeeklyOffers",
+            "title": null,
+            "href": "http://www.samsung.com/us/shop/all-deals/?marsLinkCategory=general:general<%= tracking %>",
+            "class": null,
+            "scheme": "http",
+            "netloc": "www.samsung.com",
+            "path": "/us/shop/all-deals/",
+            "params": "",
+            "query": "marsLinkCategory=general:general<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [
+                "<Response [301]>"
+            ],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general<%= tracking %>"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "www.Samsung.com",
+            "label": "Legal(1)",
+            "title": null,
+            "href": "https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "Samsung.com",
+            "label": "Legal(2)",
+            "title": null,
+            "href": "https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "here",
+            "label": "Legal(3)",
+            "title": null,
+            "href": "https://www.samsung.com/us/trade-in/terms-and-conditions/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/trade-in/terms-and-conditions/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "Samsung.com",
+            "label": "Legal(4)",
+            "title": null,
+            "href": "https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "Samsung.com",
+            "label": "Legal(5)",
+            "title": null,
+            "href": "https://www.samsung.com/us/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "Click here",
+            "label": "Legal(6)",
+            "title": null,
+            "href": "https://www.samsung.com/us/trade-in/terms-and-conditions/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/trade-in/terms-and-conditions/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        },
+        {
+            "inner_text": "here",
+            "label": "Legal(7)",
+            "title": null,
+            "href": "https://www.samsung.com/us/trade-in/terms-and-conditions/?marsLinkCategory=general:general&<%= tracking %>",
+            "class": null,
+            "scheme": "https",
+            "netloc": "www.samsung.com",
+            "path": "/us/trade-in/terms-and-conditions/",
+            "params": "",
+            "query": "marsLinkCategory=general:general&<%= tracking %>",
+            "fragment": "",
+            "redirect_history": [],
+            "offerCID": null,
+            "promoCode": null,
+            "skipCarrier": null,
+            "tradeIn": null,
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "marsLinkCategory": [
+                "general:general"
+            ],
+            "MKM_RID": null,
+            "MKM_MID": null,
+            "cid": null,
+            "bpid": null
+        }
+    ]
+}

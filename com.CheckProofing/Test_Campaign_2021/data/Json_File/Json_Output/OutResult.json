@@ -1,0 +1,45 @@
+{
+    "check_list": [
+        {
+            "skipDevice": [
+                "galaxy-s21-ultra-5g"
+            ],
+            "offerCID": [
+                "earlyReserve"
+            ],
+            "skipCarrier": [
+                "att"
+            ],
+            "tradeIn": [
+                "947de220-7ad3-455c-a8fd-dae88cefe0b8"
+            ],
+            "utm_source": [
+                "samsung"
+            ],
+            "utm_medium": [
+                "email"
+            ],
+            "utm_campaign": [
+                "01292021_s21_launch_t1"
+            ],
+            "marsLinkCategory": [
+                "mphone:mphone"
+            ],
+            "MKM_RID": [
+                "0183276092"
+            ],
+            "MKM_MID": [
+                "FCP_1018500944_PDM180096"
+            ],
+            "cid": [
+                "emlcrm-ecom-mb-cph-0221-3146-EPP_Reservers"
+            ],
+            "bpid": [
+                "0183276092"
+            ],
+            "url_deep_link": [
+                "https://www.samsung.com/us/smartphones/galaxy-s21-5g/buy/galaxy-s21-ultra-5g-128gb-att-sm-g998uzkaatt/?skipDevice=galaxy-s21-ultra-5g&offerCID=earlyReserve&skipCarrier=att&tradeIn=947de220-7ad3-455c-a8fd-dae88cefe0b8&utm_source=samsung&utm_medium=email&utm_campaign=01292021_s21_launch_t1&marsLinkCategory=mphone:mphone&MKM_RID=0183276092&MKM_MID=FCP_1018500944_PDM180096&cid=emlcrm-ecom-mb-cph-0221-3146-EPP_Reservers&bpid=0183276092"
+            ]
+        }
+    ]
+}
